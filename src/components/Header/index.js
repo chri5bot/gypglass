@@ -6,6 +6,8 @@ import PropTypes from "prop-types"
 
 import { useThemeContext } from "../../context"
 
+import * as Grid from "../../components/Grid"
+
 import { StyledHeader } from "./styles"
 
 const Header = ({ siteTitle, style }) => {
@@ -15,9 +17,11 @@ const Header = ({ siteTitle, style }) => {
     <Sticky>
       {({ style }) => (
         <StyledHeader style={style} colors={colors}>
-          <div>
-            <Link to="/">{siteTitle}</Link>
-          </div>
+          <Grid.Container>
+            <Link to="/">
+              <h1>{siteTitle}</h1>
+            </Link>
+          </Grid.Container>
         </StyledHeader>
       )}
     </Sticky>

@@ -5,6 +5,7 @@ import { StickyContainer } from "react-sticky"
 
 import Header from "../Header"
 import Footer from "../Footer"
+import * as Grid from '../Grid'
 
 import { ContextProviders } from "../../context"
 
@@ -26,10 +27,10 @@ const Layout = ({ children }) => (
         <StickyContainer>
           <GlobalStyle />
           <Header siteTitle={data.site.siteMetadata.title} />
-          <div>
+          <Grid.Container>
             <main>{children}</main>
             <Footer />
-          </div>
+          </Grid.Container>
         </StickyContainer>
       </ContextProviders>
     )}
