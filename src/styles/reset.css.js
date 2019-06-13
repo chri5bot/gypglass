@@ -15,6 +15,9 @@ export const GlobalStyle = createGlobalStyle`
         *, ::after, ::before{
             box-sizing: border-box;
         }
+    }
+    a{
+      color: white
     } 
   }
 `

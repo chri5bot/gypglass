@@ -10,13 +10,15 @@ function useThemeContext() {
 
 function ThemeContextProvider({ children }) {
   const value = {
-    primary: "#3F51B5",
-    primaryVariant: "#303F9F",
-    secondary: "#81D4FA",
-    secondaryVariant: "#29B6F6",
-    background: "#FFFFFF",
-    surface: "#FFFFFF",
-    error: "#B00020",
+    colors: {
+      primary: "#3F51B5",
+      primaryVariant: "#303F9F",
+      secondary: "#81D4FA",
+      secondaryVariant: "#29B6F6",
+      background: "#FFFFFF",
+      surface: "#FFFFFF",
+      error: "#B00020",
+    },
   }
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>
 }

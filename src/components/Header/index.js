@@ -6,19 +6,19 @@ import PropTypes from "prop-types"
 
 import { useThemeContext } from "../../context"
 
-const Header = ({ siteTitle, style }) => {
-  console.log("style", style)
-  const { hey } = useThemeContext()
+import { StyledHeader } from "./styles"
 
-  console.log(hey)
+const Header = ({ siteTitle, style }) => {
+  const { colors } = useThemeContext()
+
   return (
     <Sticky>
       {({ style }) => (
-        <header style={style}>
+        <StyledHeader style={style} colors={colors}>
           <div>
             <Link to="/">{siteTitle}</Link>
           </div>
-        </header>
+        </StyledHeader>
       )}
     </Sticky>
   )
