@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
+import { StickyContainer } from "react-sticky"
 
 import Header from "../Header"
 import Footer from "../Footer"
@@ -22,12 +23,14 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <ContextProviders>
-        <GlobalStyle />
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div>
-          <main>{children}</main>
-          <Footer />
-        </div>
+        <StickyContainer>
+          <GlobalStyle />
+          <Header siteTitle={data.site.siteMetadata.title} />
+          <div>
+            <main>{children}</main>
+            <Footer />
+          </div>
+        </StickyContainer>
       </ContextProviders>
     )}
   />
