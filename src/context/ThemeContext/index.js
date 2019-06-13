@@ -15,8 +15,6 @@ function ThemeContextProvider({ children }) {
       primaryVariant: "#303F9F",
       secondary: "#81D4FA",
       secondaryVariant: "#29B6F6",
-      background: "#FFFFFF",
-      surface: "#FFFFFF",
       error: "#B00020",
     },
   }

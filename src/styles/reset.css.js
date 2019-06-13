@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     height: 100%;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
-    body{
+    body {
         min-height: 100%;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -16,7 +16,8 @@ export const GlobalStyle = createGlobalStyle`
             box-sizing: border-box;
         }
     }
-    a{
+    a {
+      text-decoration-line: none;
       color: white
     } 
   }

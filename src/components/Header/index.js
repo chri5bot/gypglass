@@ -1,6 +1,5 @@
 import React from "react"
 import { Sticky } from "react-sticky"
-
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
@@ -8,19 +7,43 @@ import { useThemeContext } from "../../context"
 
 import * as Grid from "../../components/Grid"
 
-import { StyledHeader } from "./styles"
+import { StyledLink, StyledNav, StyledHeader, Container } from "./styles"
 
-const Header = ({ siteTitle, style }) => {
+const Header = ({ siteTitle }) => {
   const { colors } = useThemeContext()
+
+  const activeStyle = {
+    color: colors.secondary,
+    borderBottom: `solid 2px ${colors.secondary}`,
+  }
 
   return (
     <Sticky>
       {({ style }) => (
         <StyledHeader style={style} colors={colors}>
           <Grid.Container>
-            <Link to="/">
-              <h1>{siteTitle}</h1>
-            </Link>
+            <Container>
+              <Link to="/">
+                <h1>{siteTitle}</h1>
+              </Link>
+              <StyledNav>
+                <StyledLink to="/" activeStyle={activeStyle}>
+                  Inicio
+                </StyledLink>
+                <StyledLink to="/about-us" activeStyle={activeStyle}>
+                  Nosotros
+                </StyledLink>
+                <StyledLink to="/catalog" activeStyle={activeStyle}>
+                  Catálogo
+                </StyledLink>
+                <StyledLink to="/projects" activeStyle={activeStyle}>
+                  Proyectos
+                </StyledLink>
+                <StyledLink to="/contact-us" activeStyle={activeStyle}>
+                  Contáctanos
+                </StyledLink>
+              </StyledNav>
+            </Container>
           </Grid.Container>
         </StyledHeader>
       )}

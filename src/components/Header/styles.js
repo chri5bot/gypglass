@@ -1,10 +1,23 @@
 import styled from "styled-components"
+import { Link } from "gatsby"
 
 export const StyledHeader = styled.header`
   background-color: ${props => props.colors && props.colors.primary};
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   z-index: 1;
   box-shadow: rgba(67, 70, 89, 1) 0px 0px 10px 0px;
+`
+
+export const Container = styled.div`
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+`
+
+export const StyledNav = styled.nav`
+  display: flex;
+`
+
+export const StyledLink = styled(Link)`
+  margin: 0 1rem;
 `
