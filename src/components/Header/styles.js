@@ -1,6 +1,8 @@
 import styled from "styled-components"
 import { Link } from "gatsby"
 
+import media from "../../styles/media"
+
 export const StyledHeader = styled.header`
   background-color: ${props => props.colors && props.colors.primary};
   z-index: 1;
@@ -15,7 +17,10 @@ export const Container = styled.div`
 `
 
 export const StyledNav = styled.nav`
-  display: flex;
+  display: none;
+  ${media.sm`
+    display: flex;
+  `};
 `
 
 export const StyledLink = styled(Link)`

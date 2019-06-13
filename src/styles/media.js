@@ -1,17 +1,17 @@
+import { css } from "styled-components"
+
 const sizes = {
-  xl: 1200,
-  lg: 992,
-  md: 768,
-  sm: 576,
-  xs: 350,
+  xs: 576,
+  sm: 768,
+  md: 992,
+  lg: 1200,
 }
 
-const media = {
-  lg: `(min-width: ${sizes.lg}px)`,
-  md: `(min-width: ${sizes.md}px)`,
-  sm: `(min-width: ${sizes.sm}px)`,
-  xl: `(min-width: ${sizes.xl}px)`,
-  xs: `(min-width: ${sizes.xs}px)`,
-}
-
-export default media
+export default Object.keys(sizes).reduce((accumulator, label) => {
+  accumulator[label] = (...args) => css`
+    @media (min-width: ${sizes[label]}px) {
+      ${css(...args)};
+    }
+  `
+  return accumulator
+}, {})
