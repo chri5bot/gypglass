@@ -5,7 +5,6 @@ import { StickyContainer } from "react-sticky"
 
 import Header from "../Header"
 import Footer from "../Footer"
-import * as Grid from "../Grid"
 import Menu from "../../components/Menu"
 
 import { ContextProviders } from "../../context"
@@ -28,11 +27,15 @@ const Layout = ({ children }) => (
         <StickyContainer>
           <GlobalStyle />
           <Menu />
-          <Header siteTitle={data.site.siteMetadata.title} />
-          <Grid.Container>
+          <header>
+            <Header siteTitle={data.site.siteMetadata.title} />
+          </header>
+          <div>
             <main>{children}</main>
-            <Footer />
-          </Grid.Container>
+            <footer>
+              <Footer />
+            </footer>
+          </div>
         </StickyContainer>
       </ContextProviders>
     )}

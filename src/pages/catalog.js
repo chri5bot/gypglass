@@ -2,13 +2,15 @@ import React from "react"
 
 import Layout from "../components/Layout"
 import SEO from "../components/Seo"
+import Products from "../components/Products"
 
-const CatalogPage = () => (
-  <Layout>
-    <SEO title="Catálogo" />
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-  </Layout>
-)
+function CatalogPage() {
+  return (
+    <Layout>
+      <SEO title="Catálogo" />
+      <Products />
+    </Layout>
+  )
+}
 
 export default CatalogPage

@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import media from "../../styles/media"
 
-export const StyledHeader = styled.header`
+export const StyledHeader = styled.div`
   background-color: ${props => props.colors && props.colors.primary};
   z-index: 1;
   box-shadow: rgba(67, 70, 89, 1) 0px 0px 10px 0px;
