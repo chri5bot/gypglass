@@ -7,13 +7,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)15x(h)20", "  (a)23x(h)23"] },
-      { "density": ["0,45", "0,45"] },
-      { "length": ["3,66", "3,05"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(a)15x(h)20", "  (a)23x(h)23"],
+      "densities": ["0,45", "0,45"],
+      "lengths": ["3,66", "3,05"],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": []
+    }
   },
   {
     "name": "Omega Alta (Galvanizado)",
@@ -23,13 +24,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)60x(h)20"] },
-      { "density": ["0,45"] },
-      { "length": ["3,66"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(a)60x(h)20"],
+      "densities": ["0,45"],
+      "lengths": ["3,66"],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": []
+    }
   },
   {
     "name": "Omega Baja (Galvanizado)",
@@ -39,13 +41,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)60x(h)10"] },
-      { "density": ["0,50"] },
-      { "length": ["3,66"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(a)60x(h)10"],
+      "densities": ["0,50"],
+      "lengths": ["3,66"],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": []
+    }
   },
   {
     "name": "Espalda Fuerte",
@@ -55,13 +58,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)40x(h)11"] },
-      { "density": ["0,70"] },
-      { "length": ["3,66"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(a)40x(h)11"],
+      "densities": ["0,70"],
+      "lengths": ["3,66"],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": []
+    }
   },
   {
     "name": "Stud 1 5/8",
@@ -71,13 +75,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)41x(h)31", "(a)41x(h)31"] },
-      { "density": ["45,00", "45,00"] },
-      { "length": ["2,40", " 3,60"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(a)41x(h)31", "(a)41x(h)31"],
+      "densities": ["45,00", "45,00"],
+      "lengths": ["2,40", " 3,60"],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": []
+    }
   },
   {
     "name": "Stud 2 1/2",
@@ -87,13 +92,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)64x(h)49"] },
-      { "density": ["45,00"] },
-      { "length": ["2,40"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(a)64x(h)49"],
+      "densities": ["45,00"],
+      "lengths": ["2,40"],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": []
+    }
   },
   {
     "name": "Stud 3 5/8",
@@ -103,13 +109,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)90x(h)31", "(a)90x(h)31"] },
-      { "density": ["45,00", "45,00"] },
-      { "length": ["2,40", " 3,60"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(a)90x(h)31", "(a)90x(h)31"],
+      "densities": ["45,00", "45,00"],
+      "lengths": ["2,40", " 3,60"],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": []
+    }
   },
   {
     "name": "Track 1 5/8",
@@ -119,13 +126,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)44x(h)21"] },
-      { "density": ["45,00"] },
-      { "length": ["2,40"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(a)44x(h)21"],
+      "densities": ["45,00"],
+      "lengths": ["2,40"],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": []
+    }
   },
   {
     "name": "Track 2 1/2",
@@ -135,13 +143,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)66x(h)49"] },
-      { "density": ["45,00"] },
-      { "length": ["2,40"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(a)66x(h)49"],
+      "densities": ["45,00"],
+      "lengths": ["2,40"],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": []
+    }
   },
   {
     "name": "Track 3 5/8",
@@ -151,13 +160,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)93x(h)21"] },
-      { "density": ["45,00"] },
-      { "length": ["2,40"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(a)93x(h)21"],
+      "densities": ["45,00"],
+      "lengths": ["2,40"],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": []
+    }
   },
   {
     "name": "Light Rey",
@@ -167,13 +177,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)2438x(l)3658"] },
-      { "density": ["12,70"] },
-      { "length": ["3,66", "3,05"] },
-      { "border": ["Biselada"] },
-      { "thermalResistance": ["0,45"] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(a)2438x(l)3658"],
+      "densities": ["12,70"],
+      "lengths": [],
+      "borders": ["Biselada"],
+      "thermalResistances": ["0,45"],
+      "colors": []
+    }
   },
   {
     "name": "Guard Rey",
@@ -183,13 +194,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)15x(h)20", "  (a)23x(h)23"] },
-      { "density": ["0,45", "0,45"] },
-      { "length": ["3,66", "3,05"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(a)2438x(l)3658"],
+      "densities": ["12.70"],
+      "lengths": [],
+      "borders": ["Biselada."],
+      "thermalResistances": ["0,45"],
+      "colors": []
+    }
   },
   {
     "name": "Glass Rey",
@@ -199,13 +211,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)15x(h)20", "  (a)23x(h)23"] },
-      { "density": ["0,45", "0,45"] },
-      { "length": ["3,66", "3,05"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(a)1213x(l)2438"],
+      "densities": ["15.90"],
+      "lengths": [],
+      "borders": ["Cuadrada."],
+      "thermalResistances": [],
+      "colors": []
+    }
   },
   {
     "name": "Fibra Mineral",
@@ -215,13 +228,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)15x(h)20", "  (a)23x(h)23"] },
-      { "density": ["0,45", "0,45"] },
-      { "length": ["3,66", "3,05"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(l)1220x(a)61", "(l)61x(a)61"],
+      "densities": ["5/8.", "5/8."],
+      "lengths": ["3,66", "3,05"],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": ["blanco", "blanco"]
+    }
   },
   {
     "name": "Fibra Mineral Reveal",
@@ -231,13 +245,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)15x(h)20", "  (a)23x(h)23"] },
-      { "density": ["0,45", "0,45"] },
-      { "length": ["3,66", "3,05"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(l)61x(a)61"],
+      "densities": ["5/8."],
+      "lengths": ["3,66", "3,05"],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": ["blanco"]
+    }
   },
   {
     "name": "Vinil y Aluminio",
@@ -247,13 +262,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)15x(h)20", "  (a)23x(h)23"] },
-      { "density": ["0,45", "0,45"] },
-      { "length": ["3,66", "3,05"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(l)1250x(a)605", "(l)605x(a)605"],
+      "densities": ["0,45", "0,45"],
+      "lengths": ["75", "75"],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": ["blanco", "blanco"]
+    }
   },
   {
     "name": "Lana de Vidrio",
@@ -263,13 +279,14 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)15x(h)20", "  (a)23x(h)23"] },
-      { "density": ["0,45", "0,45"] },
-      { "length": ["3,66", "3,05"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(a)1,20x(l)14"],
+      "densities": ["2"],
+      "lengths": [],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": []
+    }
   },
   {
     "name": "Lana de Vidrio con Foil de Aluminio",
@@ -279,12 +296,13 @@
     "image": "",
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": [
-      { "dimensions": ["(a)15x(h)20", "  (a)23x(h)23"] },
-      { "density": ["0,45", "0,45"] },
-      { "length": ["3,66", "3,05"] },
-      { "border": [] },
-      { "thermalResistance": [] }
-    ]
+    "technicalInformation": {
+      "dimensions": ["(a)1,20x(l)14"],
+      "densities": ["2"],
+      "lengths": [],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": []
+    }
   }
 ]

@@ -1,5 +1,5 @@
 import React from "react"
-
+import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/Seo"
 
@@ -22,7 +22,14 @@ export const query = graphql`
       slug
       brand
       image
-      technicalInformation
+      technicalInformation {
+        dimensions
+        densities
+        lengths
+        borders
+        thermalResistances
+        colors
+      }
       description
     }
   }
