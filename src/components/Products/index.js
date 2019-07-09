@@ -1,6 +1,7 @@
 import React from "react"
-import * as Grid from "../Grid"
 import { useStaticQuery, graphql } from "gatsby"
+
+import * as Grid from "../Grid"
 
 function Products() {
   const {
@@ -21,7 +22,7 @@ function Products() {
     <Grid.Container>
       <Grid.Row>
         {products.map(({ name }) => (
-          <Grid.Column key={name} md={3}>
+          <Grid.Column key={name} md={6} xs={6} lg={3}>
             {name}
           </Grid.Column>
         ))}

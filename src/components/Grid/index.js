@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import media from "../../styles/media"
 
 export const ContainerFluid = styled.div`
   width: 100%;
@@ -15,9 +14,6 @@ export const Container = styled.div`
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
 
   @media (min-width: 576px) {
     max-width: 540px;
@@ -53,76 +49,57 @@ export const Column = styled.div`
       min-height: 1px;
     `
 
-    if (typeof props.xs == "number") {
+    if (props.xs) {
       const maxWidth = (props.xs / 12) * 100
 
       const generalStyles = `
-        ${
-          maxWidth === 0
-            ? "display: none;"
-            : `flex: 0 0 ${maxWidth}%;
-        max-width: ${maxWidth}%;`
-        }
+        flex: 0 0 ${maxWidth}%;
+        max-width: ${maxWidth}%;
       `
 
       styles += generalStyles
     }
 
-    if (typeof props.sm == "number") {
+    if (props.sm) {
       const maxWidth = (props.sm / 12) * 100
 
       const generalStyles = `
-        
-        ${
-          maxWidth === 0
-            ? "display: none;"
-            : `flex: 0 0 ${maxWidth}%;
-        max-width: ${maxWidth}%;`
-        }
+        flex: 0 0 ${maxWidth}%;
+        max-width: ${maxWidth}%;
       `
 
       styles += `
-      @media ${media.sm} {
+        @media (min-width:576px) {
           ${generalStyles}
         }
       `
     }
 
-    if (typeof props.md == "number") {
+    if (props.md) {
       const maxWidth = (props.md / 12) * 100
 
       const generalStyles = `
-        
-        ${
-          maxWidth === 0
-            ? "display: none;"
-            : `flex: 0 0 ${maxWidth}%;
-        max-width: ${maxWidth}%;`
-        }
+        flex: 0 0 ${maxWidth}%;
+        max-width: ${maxWidth}%;
       `
 
       styles += `
-      @media ${media.md} {
+        @media (min-width:768px) {
           ${generalStyles}
         }
       `
     }
 
-    if (typeof props.lg == "number") {
+    if (props.lg) {
       const maxWidth = (props.lg / 12) * 100
 
       const generalStyles = `
-        
-        ${
-          maxWidth === 0
-            ? "display: none;"
-            : `flex: 0 0 ${maxWidth}%;
-        max-width: ${maxWidth}%;`
-        }
+        flex: 0 0 ${maxWidth}%;
+        max-width: ${maxWidth}%;
       `
 
       styles += `
-      @media ${media.lg} {
+        @media (min-width:992px) {
           ${generalStyles}
         }
       `
