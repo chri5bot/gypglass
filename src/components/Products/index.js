@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import * as Grid from "../Grid"
+import Item from "./Item"
 
 function Products() {
   const {
@@ -23,7 +24,7 @@ function Products() {
       <Grid.Row>
         {products.map(({ name }) => (
           <Grid.Column key={name} md={6} xs={6} lg={3}>
-            {name}
+            <Item name={name}></Item>
           </Grid.Column>
         ))}
       </Grid.Row>
