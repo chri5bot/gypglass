@@ -10,7 +10,8 @@ export const Container = styled.div`
   border: 2px solid transparent;
   background-color: white;
   margin: 1rem 0;
-  min-height: 6rem;
+  min-height: 1rem;
+
   &:hover {
     outline: 0px solid transparent;
     border: 2px solid ${props => props.colors && props.colors.secondary};
