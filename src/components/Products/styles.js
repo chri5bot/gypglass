@@ -8,4 +8,5 @@ export const ItemContainerResponsive = styled.div`
 `
 export const Title = styled.h4`
   text-align: center;
+  font-size: 0.75rem;
 `
