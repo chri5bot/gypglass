@@ -19,6 +19,7 @@ function Products() {
             name
             slug
             image
+            description
           }
         }
       }
@@ -38,20 +39,15 @@ function Products() {
         {isMobile ? (
           <Grid.Column>
             <ItemContainerResponsive>
-              {products.map(({ name, slug, image }) => (
-                <ItemResponsive
-                  key={name}
-                  name={name}
-                  image={image}
-                  slug={slug}
-                />
+              {products.map(product => (
+                <ItemResponsive key={product.slug} {...product} />
               ))}
             </ItemContainerResponsive>
           </Grid.Column>
         ) : (
-          products.map(({ name, slug, image }) => (
-            <Grid.Column key={name} md={3}>
-              <Item name={name} image={image} slug={slug}></Item>
+          products.map(product => (
+            <Grid.Column key={product.slug} md={3}>
+              <Item {...product}></Item>
             </Grid.Column>
           ))
         )}

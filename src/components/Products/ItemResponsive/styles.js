@@ -9,4 +9,5 @@ export const Container = styled.div`
   height: 100%;
   min-height: 5rem;
   font-size: 0.75rem;
+  color: black;
 `

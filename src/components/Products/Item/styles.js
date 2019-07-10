@@ -15,6 +15,5 @@ export const Container = styled.div`
   &:hover {
     outline: 0px solid transparent;
     border: 2px solid ${props => props.colors && props.colors.secondary};
-    cursor: pointer;
   }
 `

@@ -3,9 +3,13 @@ import { withPrefix } from "gatsby-link"
 import { Container } from "./styles"
 import { useThemeContext } from "../../../context"
 
+import { Title } from "../styles"
+
+import { NavButton } from "../../Buttons"
+
 function Item({ name, slug, image }) {
   const { colors } = useThemeContext()
-  console.log(`/products/${slug}/${image}`)
+
   return (
     <Container colors={colors}>
       <img
@@ -14,7 +18,8 @@ function Item({ name, slug, image }) {
         width={"100%"}
         height={"auto"}
       />
-      <span>{name}</span>
+      <Title>{name}</Title>
+      <NavButton to={slug}>Ver más</NavButton>
     </Container>
   )
 }

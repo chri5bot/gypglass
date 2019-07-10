@@ -6,3 +6,6 @@ export const ItemContainerResponsive = styled.div`
   grid-gap: 1rem;
   grid-auto-rows: minmax(min-content, max-content);
 `
+export const Title = styled.h4`
+  text-align: center;
+`
