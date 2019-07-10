@@ -22,6 +22,11 @@ function Products() {
   return (
     <Grid.Container>
       <Grid.Row>
+        <Grid.Column>
+          <h3>Todos los productos</h3>
+        </Grid.Column>
+      </Grid.Row>
+      <Grid.Row>
         {products.map(({ name }) => (
           <Grid.Column key={name} md={6} xs={6} lg={3}>
             <Item name={name}></Item>
