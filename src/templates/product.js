@@ -2,18 +2,34 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/Seo"
+import * as Grid from "../components/Grid"
 
-const ProductPage = ({
+import { StyledLink, Breadcrum } from "./styles"
+
+function ProductTemplate({
   data: {
     productsJson: { name, brand, image, technicalInformation, description },
   },
-}) => (
-  <Layout>
-    <SEO title={name} />
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-  </Layout>
-)
+}) {
+  return (
+    <Layout>
+      <SEO title={name} />
+      <Grid.Container>
+        <Grid.Row>
+          <Grid.Column md={12}>
+            <Breadcrum>
+              <StyledLink to="/catalog">Catálogo</StyledLink>
+              &nbsp;
+              <span>/</span>
+              &nbsp;
+              <span> {name}</span>
+            </Breadcrum>
+          </Grid.Column>
+        </Grid.Row>
+      </Grid.Container>
+    </Layout>
+  )
+}
 
 export const query = graphql`
   query ProductsQuery($slug: String!) {
@@ -35,4 +51,4 @@ export const query = graphql`
   }
 `
 
-export default ProductPage
+export default ProductTemplate

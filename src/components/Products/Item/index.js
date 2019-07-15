@@ -1,6 +1,6 @@
 import React from "react"
 import { withPrefix } from "gatsby-link"
-import { Container } from "./styles"
+import { Container, ImageResponsive } from "./styles"
 import { useThemeContext } from "../../../context"
 
 import { Title } from "../styles"
@@ -12,11 +12,9 @@ function Item({ name, slug, image }) {
 
   return (
     <Container colors={colors}>
-      <img
+      <ImageResponsive
         src={withPrefix(`/products/${slug}/${image}`)}
         alt={slug}
-        width={"100%"}
-        height={"auto"}
       />
       <Title>{name}</Title>
       <NavButton to={slug}>Ver más</NavButton>

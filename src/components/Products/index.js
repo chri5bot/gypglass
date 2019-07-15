@@ -28,27 +28,20 @@ function Products() {
   return (
     <Grid.Container>
       <Grid.Row>
-        <Grid.Column>
+        <Grid.Column md={12}>
           <h3>Todos los productos</h3>
         </Grid.Column>
       </Grid.Row>
-      <Grid.Row>
-        <Grid.Column>
-          <ItemContainerResponsive>
-            {products.map(product => (
-              <ItemResponsive key={product.slug} {...product} />
-            ))}
-          </ItemContainerResponsive>
-        </Grid.Column>
-      </Grid.Row>
+
+      <ItemContainerResponsive>
+        {products.map(product => (
+          <ItemResponsive key={product.slug} {...product} />
+        ))}
+      </ItemContainerResponsive>
       <ItemContainer>
-        <Grid.Row>
-          {products.map(product => (
-            <Grid.Column key={product.slug} md={3}>
-              <Item {...product}></Item>
-            </Grid.Column>
-          ))}
-        </Grid.Row>
+        {products.map(product => (
+          <Item key={product.slug} {...product}></Item>
+        ))}
       </ItemContainer>
     </Grid.Container>
   )

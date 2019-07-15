@@ -9,10 +9,13 @@ export const Container = styled.div`
   padding: 1rem 1rem 2rem 1rem;
   border: 2px solid transparent;
   background-color: white;
-  margin: 1rem 0;
-  min-height: 130px;
+
   &:hover {
-    outline: 0px solid transparent;
+    /* outline: 0px solid transparent; */
     border: 2px solid ${props => props.colors && props.colors.secondary};
   }
+`
+export const ImageResponsive = styled.img`
+  max-width: 90%;
+  height: auto;
 `
