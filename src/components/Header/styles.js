@@ -14,7 +14,6 @@ export const Container = styled.div`
   align-items: center;
   color: white;
   justify-content: space-between;
-  width: 100%;
 `
 
 export const StyledNav = styled.nav`
