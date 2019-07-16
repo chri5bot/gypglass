@@ -11,6 +11,8 @@ import { ContextProviders } from "../../context"
 
 import { GlobalStyle } from "../../styles/reset.css"
 
+import { StyledFooter } from "./styles"
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -32,9 +34,9 @@ const Layout = ({ children }) => (
           </header>
           <div>
             <main>{children}</main>
-            <footer>
+            <StyledFooter>
               <Footer />
-            </footer>
+            </StyledFooter>
           </div>
         </StickyContainer>
       </ContextProviders>

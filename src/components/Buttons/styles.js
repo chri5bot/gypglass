@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export const NavButtonContainer = styled(Link)`
   text-transform: uppercase;
-  width: 100%;
+  width: ${props => (props.width ? props.width : "100%")};
   display: flex;
   justify-content: center;
   align-items: center;
