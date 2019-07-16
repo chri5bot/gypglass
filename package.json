@@ -20,7 +20,9 @@
     "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
+    "react-slick": "^0.24.0",
     "react-sticky": "^6.0.3",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^4.3.1"
   },
   "devDependencies": {

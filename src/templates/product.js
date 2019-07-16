@@ -3,17 +3,19 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/Seo"
 import * as Grid from "../components/Grid"
+import SliderProduct from "../components/SliderProduct"
 
-import { StyledLink, Breadcrum } from "./styles"
+import { StyledLink, Breadcrum, Container } from "./styles"
 
 function ProductTemplate({
   data: {
-    productsJson: { name, brand, image, technicalInformation, description },
+    productsJson: { name, slug, image },
   },
 }) {
   return (
     <Layout>
       <SEO title={name} />
+
       <Grid.Container>
         <Grid.Row>
           <Grid.Column md={12}>
@@ -24,6 +26,14 @@ function ProductTemplate({
               &nbsp;
               <span> {name}</span>
             </Breadcrum>
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
+          <Grid.Column md={6}>
+            <SliderProduct slug={slug} image={image} />
+          </Grid.Column>
+          <Grid.Column md={6}>
+            <Container>hey</Container>
           </Grid.Column>
         </Grid.Row>
       </Grid.Container>

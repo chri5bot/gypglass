@@ -13,3 +13,8 @@ export const Breadcrum = styled.div`
   display: flex;
   align-items: center;
 `
+export const Container = styled.div`
+  box-shadow: rgb(217, 217, 217) 0px 2px 4px 0px;
+  height: 98.4%;
+  padding: 1rem;
+`
