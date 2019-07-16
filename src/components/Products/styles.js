@@ -20,7 +20,7 @@ export const ItemContainer = styled.div`
   ${media.sm`
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.75rem;
+    grid-gap: 1rem;
     grid-auto-rows: minmax(min-content, max-content);  
   `};
 `
