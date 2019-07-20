@@ -31,8 +31,6 @@ function ProductTemplate({
     },
   },
 }) {
-  console.log(technicalInformation)
-
   const {
     borders,
     colors,
@@ -41,8 +39,6 @@ function ProductTemplate({
     thermalResistances,
     densities,
   } = technicalInformation
-
-  console.log(densities)
 
   return (
     <Layout>
@@ -85,7 +81,7 @@ function ProductTemplate({
           </Grid.Column>
           <Grid.Column md={12}>
             <TechnicalDescription>
-              <span>FICHA TÉNICA</span>
+              <span>Ficha Técnica</span>
               <TableContainer>
                 <StyledTable>
                   <StyledThead>
