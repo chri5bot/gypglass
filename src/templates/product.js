@@ -13,17 +13,40 @@ import {
   Description,
   ContactUs,
   TechnicalDescription,
+  StyledTable,
+  StyledThead,
+  StyledTd,
+  TableContainer,
 } from "./styles"
 
 function ProductTemplate({
   data: {
-    productsJson: { name, slug, image, category, description },
+    productsJson: {
+      name,
+      slug,
+      image,
+      category,
+      description,
+      technicalInformation,
+    },
   },
 }) {
+  console.log(technicalInformation)
+
+  const {
+    borders,
+    colors,
+    dimensions,
+    lengths,
+    thermalResistances,
+    densities,
+  } = technicalInformation
+
+  console.log(densities)
+
   return (
     <Layout>
       <SEO title={name} />
-
       <Grid.Container>
         <Grid.Row>
           <Grid.Column md={12}>
@@ -63,19 +86,91 @@ function ProductTemplate({
           <Grid.Column md={12}>
             <TechnicalDescription>
               <span>FICHA TÉNICA</span>
-              <table>
-                <thead>
-                  <tr>
-                    <td>hey</td>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>hey</td>
-                    <td>hey</td>
-                  </tr>
-                </tbody>
-              </table>
+              <TableContainer>
+                <StyledTable>
+                  <StyledThead>
+                    <tr>
+                      {borders && borders.length > 0 && (
+                        <StyledTd>Borders</StyledTd>
+                      )}
+                      {colors && colors.length > 0 && (
+                        <StyledTd>Colors</StyledTd>
+                      )}
+                      {dimensions && dimensions.length > 0 && (
+                        <StyledTd>Dimensions</StyledTd>
+                      )}
+                      {lengths && lengths.length > 0 && (
+                        <StyledTd>Lengths</StyledTd>
+                      )}
+                      {thermalResistances && thermalResistances.length > 0 && (
+                        <StyledTd>Thermal Resistance</StyledTd>
+                      )}
+                      {densities && densities.length > 0 && (
+                        <StyledTd>Espesor (mm.)</StyledTd>
+                      )}
+                    </tr>
+                  </StyledThead>
+                  <tbody>
+                    {(borders && borders.length > 0 && borders[0]) ||
+                    (colors && colors.length > 0 && colors[0]) ||
+                    (dimensions && dimensions.length > 0 && dimensions[0]) ||
+                    (lengths && lengths.length > 0 && lengths[0]) ||
+                    (thermalResistances &&
+                      thermalResistances.length > 0 &&
+                      thermalResistances[0]) ||
+                    (densities && densities.length > 0 && densities[0]) ? (
+                      <tr>
+                        {borders[0] && <StyledTd>{borders[0]}</StyledTd>}
+                        {colors[0] && <StyledTd>{colors[0]}</StyledTd>}
+                        {dimensions[0] && <StyledTd>{dimensions[0]}</StyledTd>}
+                        {lengths[0] && <StyledTd>{lengths[0]}</StyledTd>}
+                        {thermalResistances[0] && (
+                          <StyledTd>{thermalResistances[0]}</StyledTd>
+                        )}
+                        {densities[0] && <StyledTd>{densities[0]}</StyledTd>}
+                      </tr>
+                    ) : null}
+                    {(borders && borders.length > 0 && borders[1]) ||
+                    (colors && colors.length > 0 && colors[1]) ||
+                    (dimensions && dimensions.length > 0 && dimensions[1]) ||
+                    (lengths && lengths.length > 0 && lengths[1]) ||
+                    (thermalResistances &&
+                      thermalResistances.length > 0 &&
+                      thermalResistances[1]) ||
+                    (densities && densities.length > 0 && densities[1]) ? (
+                      <tr>
+                        {borders[1] && <StyledTd>{borders[1]}</StyledTd>}
+                        {colors[1] && <StyledTd>{colors[1]}</StyledTd>}
+                        {dimensions[1] && <StyledTd>{dimensions[1]}</StyledTd>}
+                        {lengths[1] && <StyledTd>{lengths[1]}</StyledTd>}
+                        {thermalResistances[1] && (
+                          <StyledTd>{thermalResistances[1]}</StyledTd>
+                        )}
+                        {densities[1] && <StyledTd>{densities[1]}</StyledTd>}
+                      </tr>
+                    ) : null}
+                    {(borders && borders.length > 0 && borders[2]) ||
+                    (colors && colors.length > 0 && colors[2]) ||
+                    (dimensions && dimensions.length > 0 && dimensions[2]) ||
+                    (lengths && lengths.length > 0 && lengths[2]) ||
+                    (thermalResistances &&
+                      thermalResistances.length > 0 &&
+                      thermalResistances[2]) ||
+                    (densities && densities.length > 0 && densities[2]) ? (
+                      <tr>
+                        {borders[2] && <StyledTd>{borders[2]}</StyledTd>}
+                        {colors[2] && <StyledTd>{colors[2]}</StyledTd>}
+                        {dimensions[2] && <StyledTd>{dimensions[2]}</StyledTd>}
+                        {lengths[2] && <StyledTd>{lengths[2]}</StyledTd>}
+                        {thermalResistances[2] && (
+                          <StyledTd>{thermalResistances[2]}</StyledTd>
+                        )}
+                        {densities[2] && <StyledTd>{densities[2]}</StyledTd>}
+                      </tr>
+                    ) : null}
+                  </tbody>
+                </StyledTable>
+              </TableContainer>
             </TechnicalDescription>
           </Grid.Column>
         </Grid.Row>
@@ -94,12 +189,12 @@ export const query = graphql`
       category
       description
       technicalInformation {
-        dimensions
-        densities
-        lengths
         borders
-        thermalResistances
         colors
+        densities
+        dimensions
+        lengths
+        thermalResistances
       }
       description
     }

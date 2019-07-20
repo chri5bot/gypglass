@@ -39,3 +39,22 @@ export const TechnicalDescription = styled.div`
   box-shadow: rgb(217, 217, 217) 0px 2px 4px 0px;
   padding: 1rem;
 `
+export const StyledTable = styled.table`
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-top: 1rem;
+`
+export const StyledThead = styled.thead`
+  background-color: #f2f2f2;
+`
+
+export const StyledTd = styled.td`
+  text-align: left;
+  padding: 8px;
+`
+
+export const TableContainer = styled.div`
+  overflow-x: auto;
+`
