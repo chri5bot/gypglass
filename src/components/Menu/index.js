@@ -28,9 +28,6 @@ function Menu() {
         <StyledLink key="catalog" to="/catalog" activeStyle={activeStyle}>
           Catálogo
         </StyledLink>
-        <StyledLink key="projects" to="/projects" activeStyle={activeStyle}>
-          Proyectos
-        </StyledLink>
         <StyledLink key="contact" to="/contact-us" activeStyle={activeStyle}>
           Contáctanos
         </StyledLink>
