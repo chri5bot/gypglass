@@ -87,19 +87,19 @@ function ProductTemplate({
                   <StyledThead>
                     <tr>
                       {borders && borders.length > 0 && (
-                        <StyledTd>Borders</StyledTd>
+                        <StyledTd>Orilla</StyledTd>
                       )}
                       {colors && colors.length > 0 && (
-                        <StyledTd>Colors</StyledTd>
+                        <StyledTd>Color</StyledTd>
                       )}
                       {dimensions && dimensions.length > 0 && (
-                        <StyledTd>Dimensions</StyledTd>
+                        <StyledTd>Dimension</StyledTd>
                       )}
                       {lengths && lengths.length > 0 && (
-                        <StyledTd>Lengths</StyledTd>
+                        <StyledTd>Longitud</StyledTd>
                       )}
                       {thermalResistances && thermalResistances.length > 0 && (
-                        <StyledTd>Thermal Resistance</StyledTd>
+                        <StyledTd>Resistencia Térmica "R"</StyledTd>
                       )}
                       {densities && densities.length > 0 && (
                         <StyledTd>Espesor (mm.)</StyledTd>
