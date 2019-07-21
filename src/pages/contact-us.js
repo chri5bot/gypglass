@@ -7,6 +7,7 @@ import styled from "styled-components"
 import sizes from "../styles/media"
 import { Input, TextArea } from "../components/FormElements"
 import { MdLocationOn, MdPhone, MdEmail } from "react-icons/md"
+import Catalog from "../components/Catalog"
 
 const ImgContactContainer = styled.div`
   display: none;
@@ -70,8 +71,12 @@ function ContactUsPage() {
   return (
     <Layout>
       <SEO title="Contáctanos" />
+
       <Grid.Container>
         <Grid.Row>
+          <Grid.Column>
+            <Catalog></Catalog>
+          </Grid.Column>
           <Grid.Column md={4}>
             <InfoContainer>
               <MdLocationOn
