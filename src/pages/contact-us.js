@@ -6,6 +6,7 @@ import contact from "../images/contact.png"
 import styled from "styled-components"
 import sizes from "../styles/media"
 import { Input, TextArea } from "../components/FormElements"
+import { MdLocationOn, MdPhone, MdEmail } from "react-icons/md"
 
 const ImgContactContainer = styled.div`
   display: none;
@@ -36,9 +37,28 @@ const SendInput = styled.input`
   border-radius: 20px;
   border: none;
   outline: none;
+  cursor: pointer;
   ${sizes.md`
     width: 255px;
   `};
+`
+
+const InfoContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 2px 4px 0 rgba(137, 137, 137, 0.3);
+  padding: 1rem;
+  margin: 0.5rem 0;
+  ${sizes.md`
+    min-height: 250px;
+    margin: 2rem 0;
+  `};
+`
+
+const StyledPara = styled.p`
+  text-align: center;
 `
 
 function ContactUsPage() {
@@ -51,6 +71,37 @@ function ContactUsPage() {
     <Layout>
       <SEO title="Contáctanos" />
       <Grid.Container>
+        <Grid.Row>
+          <Grid.Column md={4}>
+            <InfoContainer>
+              <MdLocationOn
+                style={{ width: "50px", height: "50px" }}
+              ></MdLocationOn>
+              <h3>Dirección</h3>
+              <StyledPara>
+                Bartolome Sánchez y Sebastian Moreno N71-68
+              </StyledPara>
+            </InfoContainer>
+          </Grid.Column>
+          <Grid.Column md={4}>
+            <InfoContainer>
+              <MdPhone style={{ width: "50px", height: "50px" }}></MdPhone>
+              <h3>Teléfonos</h3>
+              <ul>
+                <li>025134019</li>
+                <li>0995654537</li>
+                <li>0995271399</li>
+              </ul>
+            </InfoContainer>
+          </Grid.Column>
+          <Grid.Column md={4}>
+            <InfoContainer>
+              <MdEmail style={{ width: "50px", height: "50px" }}></MdEmail>
+              <h3>Correo electrónico</h3>
+              <StyledPara>info.ventas@gypglass.com</StyledPara>
+            </InfoContainer>
+          </Grid.Column>
+        </Grid.Row>
         <Grid.Row>
           <Grid.Column md={6}>
             <ImgContactContainer>
@@ -73,7 +124,7 @@ function ContactUsPage() {
 
               <Input
                 id="email"
-                label="Email"
+                label="Correo electrónico"
                 type="text"
                 required
                 disabled={false}
@@ -115,14 +166,6 @@ function ContactUsPage() {
                 <SendInput type="submit" value="Enviar" />
               </SendInputContainer>
             </form>
-          </Grid.Column>
-        </Grid.Row>
-        <Grid.Row>
-          <Grid.Column md={6}>
-            <h3>Direccion</h3>
-          </Grid.Column>
-          <Grid.Column md={6}>
-            <h3>123</h3>
           </Grid.Column>
         </Grid.Row>
       </Grid.Container>
