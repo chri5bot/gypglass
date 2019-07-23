@@ -5,13 +5,14 @@ import { StickyContainer } from "react-sticky"
 
 import Header from "../Header"
 import Footer from "../Footer"
+import FooterContact from "../FooterContact"
 import Menu from "../../components/Menu"
 
 import { ContextProviders } from "../../context"
 
 import { GlobalStyle } from "../../styles/reset.css"
 
-import { StyledFooter } from "./styles"
+import { StyledFooter, StyledFooterContact } from "./styles"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -37,6 +38,9 @@ const Layout = ({ children }) => (
             <StyledFooter>
               <Footer />
             </StyledFooter>
+            <StyledFooterContact>
+              <FooterContact></FooterContact>
+            </StyledFooterContact>
           </div>
         </StickyContainer>
       </ContextProviders>
