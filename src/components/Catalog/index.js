@@ -6,7 +6,7 @@ import pdf from "../../images/GYPGLASS CATALOGO-1.pdf"
 function Catalog() {
   return (
     <StyledContainer href={pdf} target="_blank">
-      <img src={banner} atl="banner" width="900"></img>
+      <img src={banner} alt="banner" width="100%"></img>
     </StyledContainer>
   )
 }

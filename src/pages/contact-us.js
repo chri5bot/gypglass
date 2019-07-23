@@ -7,7 +7,6 @@ import styled from "styled-components"
 import sizes from "../styles/media"
 import { Input, TextArea } from "../components/FormElements"
 import { MdLocationOn, MdPhone, MdEmail } from "react-icons/md"
-import Catalog from "../components/Catalog"
 
 const ImgContactContainer = styled.div`
   display: none;
@@ -34,8 +33,8 @@ const SendInput = styled.input`
   align-items: center;
   background-color: #29b6f6;
   color: white;
-  padding: 0.5rem 0;
-  border-radius: 20px;
+  padding: 0.7rem 0;
+  border-radius: 1rem;
   border: none;
   outline: none;
   cursor: pointer;
@@ -74,9 +73,6 @@ function ContactUsPage() {
 
       <Grid.Container>
         <Grid.Row>
-          <Grid.Column>
-            <Catalog></Catalog>
-          </Grid.Column>
           <Grid.Column md={4}>
             <InfoContainer>
               <MdLocationOn
@@ -102,7 +98,7 @@ function ContactUsPage() {
           <Grid.Column md={4}>
             <InfoContainer>
               <MdEmail style={{ width: "50px", height: "50px" }}></MdEmail>
-              <h3>Correo electrónico</h3>
+              <h3>Correo Electrónico</h3>
               <StyledPara>info.ventas@gypglass.com</StyledPara>
             </InfoContainer>
           </Grid.Column>
@@ -129,7 +125,7 @@ function ContactUsPage() {
 
               <Input
                 id="email"
-                label="Correo electrónico"
+                label="Correo Electrónico"
                 type="text"
                 required
                 disabled={false}

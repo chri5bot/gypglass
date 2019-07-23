@@ -29,7 +29,7 @@ function Products() {
     <Grid.Container>
       <Grid.Row>
         <Grid.Column md={12}>
-          <h3>Todos los productos</h3>
+          <h3 style={{ textAlign: "center" }}>Nuestros productos</h3>
         </Grid.Column>
       </Grid.Row>
 
