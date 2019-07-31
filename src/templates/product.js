@@ -38,6 +38,7 @@ function ProductTemplate({
     lengths,
     thermalResistances,
     densities,
+    items,
   } = technicalInformation
 
   return (
@@ -86,6 +87,7 @@ function ProductTemplate({
                 <StyledTable>
                   <StyledThead>
                     <tr>
+                      {items && items.length > 0 && <StyledTd>Items</StyledTd>}
                       {borders && borders.length > 0 && (
                         <StyledTd>Orilla</StyledTd>
                       )}
@@ -107,7 +109,8 @@ function ProductTemplate({
                     </tr>
                   </StyledThead>
                   <tbody>
-                    {(borders && borders.length > 0 && borders[0]) ||
+                    {(items && items.length > 0 && items[0]) ||
+                    (borders && borders.length > 0 && borders[0]) ||
                     (colors && colors.length > 0 && colors[0]) ||
                     (dimensions && dimensions.length > 0 && dimensions[0]) ||
                     (lengths && lengths.length > 0 && lengths[0]) ||
@@ -116,6 +119,7 @@ function ProductTemplate({
                       thermalResistances[0]) ||
                     (densities && densities.length > 0 && densities[0]) ? (
                       <tr>
+                        {items[0] && <StyledTd>{items[0]}</StyledTd>}
                         {borders[0] && <StyledTd>{borders[0]}</StyledTd>}
                         {colors[0] && <StyledTd>{colors[0]}</StyledTd>}
                         {dimensions[0] && <StyledTd>{dimensions[0]}</StyledTd>}
@@ -126,7 +130,8 @@ function ProductTemplate({
                         {densities[0] && <StyledTd>{densities[0]}</StyledTd>}
                       </tr>
                     ) : null}
-                    {(borders && borders.length > 0 && borders[1]) ||
+                    {(items && items.length > 0 && items[1]) ||
+                    (borders && borders.length > 0 && borders[1]) ||
                     (colors && colors.length > 0 && colors[1]) ||
                     (dimensions && dimensions.length > 0 && dimensions[1]) ||
                     (lengths && lengths.length > 0 && lengths[1]) ||
@@ -135,6 +140,7 @@ function ProductTemplate({
                       thermalResistances[1]) ||
                     (densities && densities.length > 0 && densities[1]) ? (
                       <tr>
+                        {items[1] && <StyledTd>{items[1]}</StyledTd>}
                         {borders[1] && <StyledTd>{borders[1]}</StyledTd>}
                         {colors[1] && <StyledTd>{colors[1]}</StyledTd>}
                         {dimensions[1] && <StyledTd>{dimensions[1]}</StyledTd>}
@@ -145,7 +151,8 @@ function ProductTemplate({
                         {densities[1] && <StyledTd>{densities[1]}</StyledTd>}
                       </tr>
                     ) : null}
-                    {(borders && borders.length > 0 && borders[2]) ||
+                    {(items && items.length > 0 && items[2]) ||
+                    (borders && borders.length > 0 && borders[2]) ||
                     (colors && colors.length > 0 && colors[2]) ||
                     (dimensions && dimensions.length > 0 && dimensions[2]) ||
                     (lengths && lengths.length > 0 && lengths[2]) ||
@@ -154,6 +161,7 @@ function ProductTemplate({
                       thermalResistances[2]) ||
                     (densities && densities.length > 0 && densities[2]) ? (
                       <tr>
+                        {items[2] && <StyledTd>{items[2]}</StyledTd>}
                         {borders[2] && <StyledTd>{borders[2]}</StyledTd>}
                         {colors[2] && <StyledTd>{colors[2]}</StyledTd>}
                         {dimensions[2] && <StyledTd>{dimensions[2]}</StyledTd>}
@@ -191,6 +199,7 @@ export const query = graphql`
         dimensions
         lengths
         thermalResistances
+        items
       }
       description
     }

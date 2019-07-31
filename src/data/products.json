@@ -8,7 +8,7 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "",
     "technicalInformation": {
       "dimensions": ["(a)15x(h)20", "  (a)23x(h)23"],
       "densities": ["0,45", "0,45"],
@@ -16,7 +16,7 @@
       "borders": [],
       "thermalResistances": [],
       "colors": [],
-      "item": []
+      "items": []
     }
   },
   {
@@ -28,27 +28,27 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "",
     "technicalInformation": {
-      "dimensions": ["(a)60x(h)20"],
-      "densities": ["0,45"],
-      "lengths": ["3,66"],
+      "dimensions": ["(a)60x(h)20", "(a)60x(h)20"],
+      "densities": ["0,45", "0,50"],
+      "lengths": ["3,66", "3,66"],
       "borders": [],
       "thermalResistances": [],
       "colors": [],
-      "item": ["Omega Alta (galvanizado)", "Omega Baja (galvanizado)"]
+      "items": ["Omega Alta (galvanizado)", "Omega Baja (galvanizado)"]
     }
   },
   {
     "name": "Suspensión Blanca",
-    "slug": "omega",
+    "slug": "suspension-blanca",
     "brand": "porttitor",
     "summary": "",
     "category": "Perfilería",
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "",
     "technicalInformation": {
       "dimensions": ["(a)60x(h)20"],
       "densities": ["0,45"],
@@ -56,7 +56,7 @@
       "borders": [],
       "thermalResistances": [],
       "colors": [],
-      "item": [
+      "items": [
         "Perfil Principal 12'",
         "Perfil Secundario 4'",
         "Perfil Terciario 2'",
@@ -73,7 +73,7 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "",
     "technicalInformation": {
       "dimensions": ["(a)40x(h)11"],
       "densities": ["0,70"],
@@ -289,7 +289,7 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "Es una base de pintura para lograr un acabado estetico en inetiores. Cubre las uniones y pequeñas fisuras que puedan existir en el gypsum mantiene un color estable alarga la vida util de la pintura. Contiene: 20 kg. Rinde: Aprox.  20 m2.",
     "technicalInformation": {
       "dimensions": [],
       "densities": [],
@@ -309,14 +309,15 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "Alta resistencia mecánica y disminución en riesgos de fisura en la unión de las placas de yeso/ elastisidad ideal. Mezcla lista para usar. Contiene: 28 kg. Rinde: Aprox. 45m2",
     "technicalInformation": {
       "dimensions": [],
       "densities": [],
       "lengths": [],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": []
     }
   },
   {
@@ -328,14 +329,15 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "Sella las juntas de las placas de yeso-cartòn para enlucirlas en su totalidad de aspecto liso y libre de imperfecciones, preparaciòn de muro para pintura. Contiene: 25kg. Rinde: Aprox.  20 m2",
     "technicalInformation": {
       "dimensions": [],
       "densities": [],
       "lengths": [],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": []
     }
   },
   {
@@ -347,14 +349,15 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "Pegado de placas de cartòn entre si o de  paneles de yeso en muros de albañileria, no produce grumos tiene alto rendimiento. Contiene: 25 kg. Rinde: Aprox. 17m2.",
     "technicalInformation": {
       "dimensions": [],
       "densities": [],
       "lengths": [],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": []
     }
   },
   {
@@ -366,14 +369,15 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "",
     "technicalInformation": {
       "dimensions": [],
       "densities": [],
       "lengths": [],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": []
     }
   },
   {
@@ -385,14 +389,15 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "",
     "technicalInformation": {
       "dimensions": [],
       "densities": [],
       "lengths": [],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": []
     }
   },
   {
@@ -411,7 +416,8 @@
       "lengths": [],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": []
     }
   },
   {
@@ -423,14 +429,15 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "Diseño ultradelgado. Luminaria para empotrar en cielo falso tipo panel LED de alta potencia, alta luminosidad, no genera parpadeos ni radiaciones ultravioletas y su encendido es instantáneo. Marco de aluminio, color blanco, diseño ultra delgado y moderno, la luz se proyecta de manera uniforme, evitando el deslumbramiento y el cansancio visual.",
     "technicalInformation": {
       "dimensions": [],
       "densities": [],
       "lengths": [],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": []
     }
   },
   {
@@ -442,14 +449,15 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "Luminaria sobrepuesta tipo panel LED de alta potencia, alta luminosidad, no genera parpadeos ni radiaciones ultravioletas y su encendido es instantáneo. Marco de aluminio  color blanco, la luz se proyecta de manera uniforme, evitando el deslumbramiento y el cansancio visual. Vida útil promedio 35.000 horas a un flujo luminoso del 70%. Indice de Reproducción de Color (IRC) 80%. Driver electrónico remoto, voltaje universal 120V a 277V.",
     "technicalInformation": {
       "dimensions": [],
       "densities": [],
       "lengths": [],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": []
     }
   },
   {
@@ -461,14 +469,15 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "Diseño ultraplano. Excelente control del deslumbramiento. Recomendada para aplicaciones residenciales. Vida útil: 30.000 horas a un flujo luminoso del 70%. Sustituto ideal de downlights empotrados fluorescentes. Reflector interior anti-deslumbramiento. Alto flujo luminoso en tamaño compacto. Luz instantánea. Ángulo de apertura 120º",
     "technicalInformation": {
       "dimensions": [],
       "densities": [],
       "lengths": [],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": []
     }
   },
   {
@@ -480,14 +489,15 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "Diseño ultraplano. Ángulo de apertura 120º. Recomendada para aplicaciones residenciales. Vida útil: 30.000 horas a un flujo luminoso del 70%. Sustituto ideal de downlights empotrados fluorescentes. Reflector interior anti-deslumbramiento. Alto flujo luminoso en tamaño compacto. Luz instantánea.",
     "technicalInformation": {
       "dimensions": [],
       "densities": [],
       "lengths": [],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": []
     }
   }
 ]
