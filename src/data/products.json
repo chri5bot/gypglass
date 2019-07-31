@@ -15,12 +15,13 @@
       "lengths": ["3,66", "3,05"],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "item": []
     }
   },
   {
-    "name": "Omega Alta (Galvanizado)",
-    "slug": "omega-alta-galvanizado",
+    "name": "Omega",
+    "slug": "omega",
     "brand": "porttitor",
     "summary": "",
     "category": "Perfilería",
@@ -34,12 +35,13 @@
       "lengths": ["3,66"],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "item": ["Omega Alta (galvanizado)", "Omega Baja (galvanizado)"]
     }
   },
   {
-    "name": "Omega Baja (Galvanizado)",
-    "slug": "omega-baja-galvanizado",
+    "name": "Suspensión Blanca",
+    "slug": "omega",
     "brand": "porttitor",
     "summary": "",
     "category": "Perfilería",
@@ -48,12 +50,18 @@
     "pdf": "",
     "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
     "technicalInformation": {
-      "dimensions": ["(a)60x(h)10"],
-      "densities": ["0,50"],
+      "dimensions": ["(a)60x(h)20"],
+      "densities": ["0,45"],
       "lengths": ["3,66"],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "item": [
+        "Perfil Principal 12'",
+        "Perfil Secundario 4'",
+        "Perfil Terciario 2'",
+        "Ángulo 10'"
+      ]
     }
   },
   {
@@ -72,121 +80,60 @@
       "lengths": ["3,66"],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": []
     }
   },
   {
-    "name": "Stud 1 5/8",
-    "slug": "stud-1-58",
+    "name": "Stud",
+    "slug": "stud",
     "brand": "porttitor",
     "summary": "",
     "category": "Perfilería",
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "Estructura para la instalación de paredes, su colocación  es vertical y tiene perforaciones a lo largo para el paso de las instalaciones.",
     "technicalInformation": {
-      "dimensions": ["(a)41x(h)31", "(a)41x(h)31"],
-      "densities": ["45,00", "45,00"],
-      "lengths": ["2,40", " 3,60"],
+      "dimensions": [
+        "(a)41x(h)31",
+        "(a)41x(h)31",
+        "(a)64x(h)49",
+        "(a)90x(h)31",
+        "(a)90x(h)31"
+      ],
+      "densities": ["0,45", "0,45", "0,45", "0,45", "0,45"],
+      "lengths": ["2,40", "3,60", "2,40", "2,40", "3,60"],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": [
+        "Stud 1 5/8",
+        "Stud 1 5/8",
+        "Stud 2 1/2",
+        "Stud 3 5/8",
+        "Stud 3 5/8"
+      ]
     }
   },
   {
-    "name": "Stud 2 1/2",
-    "slug": "stud-2-12",
+    "name": "Track",
+    "slug": "track",
     "brand": "porttitor",
     "summary": "",
     "category": "Perfilería",
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "Estructura para la instalación de paredes, su colocación  es horizontal  para la inserción vertical del stud, se lo coloca en la base y la parte superior del mismo.",
     "technicalInformation": {
-      "dimensions": ["(a)64x(h)49"],
-      "densities": ["45,00"],
-      "lengths": ["2,40"],
+      "dimensions": ["(a)44x(h)21", "(a)66x(h)49", "(a)93x(h)21"],
+      "densities": ["00,45", "00,45", "00,45"],
+      "lengths": ["2,40", "2,40", "2,40"],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
-    }
-  },
-  {
-    "name": "Stud 3 5/8",
-    "slug": "stud-3-58",
-    "brand": "porttitor",
-    "summary": "",
-    "category": "Perfilería",
-    "image": "main.png",
-    "images": [],
-    "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": {
-      "dimensions": ["(a)90x(h)31", "(a)90x(h)31"],
-      "densities": ["45,00", "45,00"],
-      "lengths": ["2,40", " 3,60"],
-      "borders": [],
-      "thermalResistances": [],
-      "colors": []
-    }
-  },
-  {
-    "name": "Track 1 5/8",
-    "slug": "track-1-58",
-    "brand": "porttitor",
-    "summary": "",
-    "category": "Perfilería",
-    "image": "main.png",
-    "images": [],
-    "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": {
-      "dimensions": ["(a)44x(h)21"],
-      "densities": ["45,00"],
-      "lengths": ["2,40"],
-      "borders": [],
-      "thermalResistances": [],
-      "colors": []
-    }
-  },
-  {
-    "name": "Track 2 1/2",
-    "slug": "track-2-12",
-    "brand": "porttitor",
-    "summary": "",
-    "category": "Perfilería",
-    "image": "main.png",
-    "images": [],
-    "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": {
-      "dimensions": ["(a)66x(h)49"],
-      "densities": ["45,00"],
-      "lengths": ["2,40"],
-      "borders": [],
-      "thermalResistances": [],
-      "colors": []
-    }
-  },
-  {
-    "name": "Track 3 5/8",
-    "slug": "track-3-58",
-    "brand": "porttitor",
-    "summary": "",
-    "category": "Perfilería",
-    "image": "main.png",
-    "images": [],
-    "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": {
-      "dimensions": ["(a)93x(h)21"],
-      "densities": ["45,00"],
-      "lengths": ["2,40"],
-      "borders": [],
-      "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": ["Track 1 5/8", "Track 2 1/2", "Track 3 5/8"]
     }
   },
   {
@@ -198,14 +145,15 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "Esta lámina tiene un núcleo incombustible de yeso, xcubierto de papel reciclado por las 2 caras. Utilizado por lo general para paredes interiores y cielo raso.",
     "technicalInformation": {
       "dimensions": ["(a)2438x(l)3658"],
       "densities": ["12,70"],
       "lengths": [],
       "borders": ["Biselada"],
       "thermalResistances": ["0,45"],
-      "colors": []
+      "colors": [],
+      "items": []
     }
   },
   {
@@ -217,14 +165,15 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "Esta lámina está diseñada para el control del crecimiento de moho y hongos. Es una plancha esta  designada para humedad princpalmente. Esta compuesta por un núcleo incombustible de yeso tratado para ser incmbustible.",
     "technicalInformation": {
       "dimensions": ["(a)2438x(l)3658"],
       "densities": ["12.70"],
       "lengths": [],
       "borders": ["Biselada."],
       "thermalResistances": ["0,45"],
-      "colors": []
+      "colors": [],
+      "items": []
     }
   },
   {
@@ -236,33 +185,39 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "Esta lámina esta diseñada para exteriores resistente a la absorción de agua desempeño contra degradación y deterioro para expocision de interperie.",
     "technicalInformation": {
       "dimensions": ["(a)1213x(l)2438"],
       "densities": ["15.90"],
       "lengths": [],
       "borders": ["Cuadrada."],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": []
     }
   },
   {
-    "name": "Plancha de Fibrout",
-    "slug": "plancha-fibrout",
+    "name": "Plancha de Fibrolit",
+    "slug": "plancha-fibrolit",
     "brand": "porttitor",
     "summary": "",
     "category": "Láminas de Gypsum y Fibrocemento",
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "Esta lámina esta diseñada para exteriores en instalación de techos o fachadas, cumplen con requisitos de resistencia durabilidad  y es un material totalmente impermeable.",
     "technicalInformation": {
       "dimensions": ["(a)1,22x(l)2,44", "(a)1,22x(l)2,44", "(a)1,22x(l)2,44"],
       "densities": ["4,00", "6,00", "10,00"],
       "lengths": [],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": [
+        "Plancha de Fibrolit",
+        "Plancha de Fibrolit",
+        "Plancha de Fibrolit"
+      ]
     }
   },
   {
@@ -274,33 +229,15 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "Contiene propiedades de aislamiento tèrmico y acùstico,es resistente al fuego, a la humedad y hongos, se designa principalmente para el recubrimiento de espacios interiores.",
     "technicalInformation": {
-      "dimensions": ["(l)1220x(a)61", "(l)61x(a)61"],
-      "densities": ["5/8.", "5/8."],
-      "lengths": ["3,66", "3,05"],
-      "borders": [],
-      "thermalResistances": [],
-      "colors": ["blanco", "blanco"]
-    }
-  },
-  {
-    "name": "Fibra Mineral Reveal",
-    "slug": "fibra-mineral-reveal",
-    "brand": "porttitor",
-    "summary": "",
-    "category": "Láminas Moduladas Cielo Raso",
-    "image": "main.png",
-    "images": [],
-    "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": {
-      "dimensions": ["(l)61x(a)61"],
-      "densities": ["5/8."],
+      "dimensions": ["(l)1220x(a)61", "(l)610x(a)610", "(l)610x(a)610"],
+      "densities": ["5/8.", "5/8.", "5/8."],
       "lengths": [],
       "borders": [],
       "thermalResistances": [],
-      "colors": ["blanco"]
+      "colors": ["blanco", "blanco", "blanco"],
+      "items": ["Fibra Mineral", "Fibra Mineral", "Fibra Mineral Reveal"]
     }
   },
   {
@@ -312,14 +249,15 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "Son paneles de pvc lavables, con  foil de aluminio en la parte trasera, utilizada principalmente para areas esteriles,  propensas a humedad.",
     "technicalInformation": {
       "dimensions": ["(l)1250x(a)605", "(l)605x(a)605"],
-      "densities": ["0,45", "0,45"],
-      "lengths": ["75", "75"],
+      "densities": ["75", "75"],
+      "lengths": [],
       "borders": [],
       "thermalResistances": [],
-      "colors": ["blanco", "blanco"]
+      "colors": ["blanco", "blanco"],
+      "items": []
     }
   },
   {
@@ -331,33 +269,15 @@
     "image": "main.png",
     "images": [],
     "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
+    "description": "La fibra mineral es un aislamiento ligero hecho de fibras orgànicas, muy resiliente a la acustica y temperatura; puede ser utilizata tanto en techo como en paredes. El foil de aluminio tiene el efecto de endurecimiento por radiaciòn tèrmica por lo que su resistencia a altas temperaturas es mayor, al igual que su facilidad de manipulaciòn.",
     "technicalInformation": {
-      "dimensions": ["(a)1,20x(l)14"],
-      "densities": ["2"],
+      "dimensions": ["(a)1,20x(l)14", "(a)1,20x(l)14"],
+      "densities": ["2", "2"],
       "lengths": [],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
-    }
-  },
-  {
-    "name": "Lana de Vidrio con Foil de Aluminio",
-    "slug": "lana-vidrio-aluminio",
-    "brand": "porttitor",
-    "summary": "",
-    "category": "Lana de Vidrio",
-    "image": "main.png",
-    "images": [],
-    "pdf": "",
-    "description": "Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In malesuada enim in dolor euismod, id commodo mi consectetur. Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris turpis nisl, molestie ut ipsum et, suscipit vehicula odio. Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet quam et libero dictum, vitae dignissim leo eleifend. In in turpis turpis. Quisque justo turpis, ves.",
-    "technicalInformation": {
-      "dimensions": ["(a)1,20x(l)14"],
-      "densities": ["2"],
-      "lengths": [],
-      "borders": [],
-      "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": ["Lana de Vidrio", "Lana de Vidrio con Foil de aluminio"]
     }
   },
   {
@@ -376,7 +296,8 @@
       "lengths": [],
       "borders": [],
       "thermalResistances": [],
-      "colors": []
+      "colors": [],
+      "items": []
     }
   },
   {
