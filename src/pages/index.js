@@ -57,6 +57,7 @@ const IndexPage = () => (
       <a
         href="https://api.whatsapp.com/send?phone=593995271399&text=&source=&data="
         target="_blank"
+        rel="noopener noreferrer"
       >
         <IoLogoWhatsapp
           style={{ color: "#D3A200", width: "50px", height: "50px" }}

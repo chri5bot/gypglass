@@ -7,6 +7,8 @@ import styled from "styled-components"
 import sizes from "../styles/media"
 import { Input, TextArea } from "../components/FormElements"
 import { MdLocationOn, MdPhone, MdEmail } from "react-icons/md"
+import GoogleMapReact from "google-map-react"
+import logo from "../assets/logo.png"
 
 const ImgContactContainer = styled.div`
   display: none;
@@ -61,6 +63,10 @@ const StyledPara = styled.p`
   text-align: center;
 `
 
+const AnyReactComponent = () => (
+  <img src={logo} width={50} height={50} alt="icon"></img>
+)
+
 function ContactUsPage() {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
@@ -70,6 +76,34 @@ function ContactUsPage() {
   return (
     <Layout>
       <SEO title="Contáctanos" />
+      <Grid.Container>
+        <Grid.Row>
+          <Grid.Column>
+            <div style={{ height: "100vh", width: "100%" }}>
+              <GoogleMapReact
+                bootstrapURLKeys={{
+                  key: "AIzaSyC3Oonqo5DQkrS6b3bJNopN3Tl30U_5y_k",
+                }}
+                defaultCenter={{
+                  lng: -78.474966,
+                  lat: -0.106533,
+                }}
+                defaultZoom={100}
+                options={{
+                  fullscreenControl: false,
+                  disableDoubleClickZoom: true,
+                  gestureHandling: "cooperative",
+                }}
+              >
+                <AnyReactComponent lng={-78.474966} lat={-0.106533} />
+                {/* <span>
+                
+                </span> */}
+              </GoogleMapReact>
+            </div>
+          </Grid.Column>
+        </Grid.Row>
+      </Grid.Container>
 
       <Grid.Container>
         <Grid.Row>

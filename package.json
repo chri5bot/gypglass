@@ -15,6 +15,7 @@
     "gatsby-source-filesystem": "^2.1.2",
     "gatsby-transformer-json": "^2.2.0",
     "gatsby-transformer-sharp": "^2.1.21",
+    "google-map-react": "^1.1.4",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-burger-menu": "^2.6.10",
