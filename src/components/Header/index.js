@@ -9,6 +9,8 @@ import * as Grid from "../../components/Grid"
 
 import { StyledLink, StyledNav, StyledHeader, Container } from "./styles"
 
+import logoWhite from "../../assets/logo-white.png"
+
 const Header = ({ siteTitle }) => {
   const { colors } = useThemeContext()
 
@@ -24,7 +26,8 @@ const Header = ({ siteTitle }) => {
           <Grid.Container>
             <Container>
               <Link to="/">
-                <h1>{siteTitle}</h1>
+                {/* <h1>{siteTitle}</h1> */}
+                <img src={logoWhite} width={180} alt="white-logo"></img>
               </Link>
               <StyledNav>
                 <StyledLink to="/" activeStyle={activeStyle}>

@@ -11,10 +11,10 @@ function useThemeContext() {
 function ThemeContextProvider({ children }) {
   const value = {
     colors: {
-      primary: "#3F51B5",
+      primary: "#262C41",
       primaryVariant: "#303F9F",
-      secondary: "#81D4FA",
-      secondaryVariant: "#29B6F6",
+      secondary: "#D3A200",
+      secondaryVariant: "#D3A200",
       error: "#B00020",
     },
   }

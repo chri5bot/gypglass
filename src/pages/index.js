@@ -8,7 +8,8 @@ import media from "../styles/media"
 import styled from "styled-components"
 import banner1 from "../assets/banner/banner-1.png"
 import banner2 from "../assets/banner/banner-2.png"
-import Products from "../components/Products"
+import { IoLogoWhatsapp } from "react-icons/io"
+// import Products from "../components/Products"
 
 export const ImgContainer = styled.div`
   background-image: url('${props => props.img}');
@@ -39,9 +40,29 @@ export const Text = styled.span`
   `};
 `
 
+export const WhatsappContainer = styled.div`
+  position: fixed;
+  z-index: 16000160;
+  bottom: 0;
+  text-align: center;
+  overflow: hidden;
+  right: 0;
+  margin-right: 0.5rem;
+`
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Inicio" />
+    <WhatsappContainer>
+      <a
+        href="https://api.whatsapp.com/send?phone=593995271399&text=&source=&data="
+        target="_blank"
+      >
+        <IoLogoWhatsapp
+          style={{ color: "#D3A200", width: "50px", height: "50px" }}
+        ></IoLogoWhatsapp>
+      </a>
+    </WhatsappContainer>
     <Grid.Container>
       <Grid.Row>
         <Grid.Column>
@@ -65,7 +86,7 @@ const IndexPage = () => (
         </Grid.Column>
       </Grid.Row>
     </Grid.Container>
-    <Products />
+    {/* <Products /> */}
   </Layout>
 )
 
