@@ -9,7 +9,7 @@ import styled from "styled-components"
 import banner1 from "../assets/banner/banner-1.png"
 import banner2 from "../assets/banner/banner-2.png"
 import { IoLogoWhatsapp } from "react-icons/io"
-// import Products from "../components/Products"
+import Brands from "../components/Brands"
 
 export const ImgContainer = styled.div`
   background-image: url('${props => props.img}');
@@ -87,7 +87,7 @@ const IndexPage = () => (
         </Grid.Column>
       </Grid.Row>
     </Grid.Container>
-    {/* <Products /> */}
+    <Brands />
   </Layout>
 )
 
