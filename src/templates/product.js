@@ -95,7 +95,7 @@ function ProductTemplate({
                         <StyledTd>Color</StyledTd>
                       )}
                       {dimensions && dimensions.length > 0 && (
-                        <StyledTd>Dimension</StyledTd>
+                        <StyledTd>Dimensión</StyledTd>
                       )}
                       {lengths && lengths.length > 0 && (
                         <StyledTd>Longitud</StyledTd>
@@ -170,6 +170,69 @@ function ProductTemplate({
                           <StyledTd>{thermalResistances[2]}</StyledTd>
                         )}
                         {densities[2] && <StyledTd>{densities[2]}</StyledTd>}
+                      </tr>
+                    ) : null}
+                    {(items && items.length > 0 && items[3]) ||
+                    (borders && borders.length > 0 && borders[3]) ||
+                    (colors && colors.length > 0 && colors[3]) ||
+                    (dimensions && dimensions.length > 0 && dimensions[3]) ||
+                    (lengths && lengths.length > 0 && lengths[3]) ||
+                    (thermalResistances &&
+                      thermalResistances.length > 0 &&
+                      thermalResistances[3]) ||
+                    (densities && densities.length > 0 && densities[3]) ? (
+                      <tr>
+                        {items[3] && <StyledTd>{items[3]}</StyledTd>}
+                        {borders[3] && <StyledTd>{borders[3]}</StyledTd>}
+                        {colors[3] && <StyledTd>{colors[3]}</StyledTd>}
+                        {dimensions[3] && <StyledTd>{dimensions[3]}</StyledTd>}
+                        {lengths[3] && <StyledTd>{lengths[3]}</StyledTd>}
+                        {thermalResistances[3] && (
+                          <StyledTd>{thermalResistances[3]}</StyledTd>
+                        )}
+                        {densities[3] && <StyledTd>{densities[3]}</StyledTd>}
+                      </tr>
+                    ) : null}
+                    {(items && items.length > 0 && items[4]) ||
+                    (borders && borders.length > 0 && borders[4]) ||
+                    (colors && colors.length > 0 && colors[4]) ||
+                    (dimensions && dimensions.length > 0 && dimensions[4]) ||
+                    (lengths && lengths.length > 0 && lengths[4]) ||
+                    (thermalResistances &&
+                      thermalResistances.length > 0 &&
+                      thermalResistances[4]) ||
+                    (densities && densities.length > 0 && densities[4]) ? (
+                      <tr>
+                        {items[4] && <StyledTd>{items[4]}</StyledTd>}
+                        {borders[4] && <StyledTd>{borders[4]}</StyledTd>}
+                        {colors[4] && <StyledTd>{colors[4]}</StyledTd>}
+                        {dimensions[4] && <StyledTd>{dimensions[4]}</StyledTd>}
+                        {lengths[4] && <StyledTd>{lengths[4]}</StyledTd>}
+                        {thermalResistances[4] && (
+                          <StyledTd>{thermalResistances[4]}</StyledTd>
+                        )}
+                        {densities[4] && <StyledTd>{densities[4]}</StyledTd>}
+                      </tr>
+                    ) : null}
+                    {(items && items.length > 0 && items[5]) ||
+                    (borders && borders.length > 0 && borders[5]) ||
+                    (colors && colors.length > 0 && colors[5]) ||
+                    (dimensions && dimensions.length > 0 && dimensions[5]) ||
+                    (lengths && lengths.length > 0 && lengths[5]) ||
+                    (thermalResistances &&
+                      thermalResistances.length > 0 &&
+                      thermalResistances[5]) ||
+                    (densities && densities.length > 0 && densities[5]) ? (
+                      <tr>
+                        {items[5] && <StyledTd>{items[5]}</StyledTd>}
+                        {borders[5] && <StyledTd>{borders[5]}</StyledTd>}
+                        {colors[5] && <StyledTd>{colors[5]}</StyledTd>}
+                        {dimensions[5] && <StyledTd>{dimensions[5]}</StyledTd>}
+                        {lengths[5] && <StyledTd>{lengths[5]}</StyledTd>}
+                        {thermalResistances[5] && (
+                          <StyledTd>{thermalResistances[5]}</StyledTd>
+                        )}
+                        {densities[5] && <StyledTd>{densities[5]}</StyledTd>}
                       </tr>
                     ) : null}
                   </tbody>
