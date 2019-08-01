@@ -79,7 +79,7 @@ function ContactUsPage() {
       <Grid.Container>
         <Grid.Row>
           <Grid.Column>
-            <div style={{ height: "100vh", width: "100%" }}>
+            <div style={{ height: "50vh", width: "100%", marginTop: "1rem" }}>
               <GoogleMapReact
                 bootstrapURLKeys={{
                   key: "AIzaSyC3Oonqo5DQkrS6b3bJNopN3Tl30U_5y_k",
@@ -88,7 +88,7 @@ function ContactUsPage() {
                   lng: -78.474966,
                   lat: -0.106533,
                 }}
-                defaultZoom={100}
+                defaultZoom={18}
                 options={{
                   fullscreenControl: false,
                   disableDoubleClickZoom: true,
