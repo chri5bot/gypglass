@@ -1,0 +1,50 @@
+[
+  {
+    "name": "project 1",
+    "slug": "project-1",
+    "image": "main.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit parturient, leo commodo nisi. Cursus rhoncus eleifend dis bibendum et mollis curae phasellus scelerisque non consequat velit, erat placerat platea cras neque montes dui sodales leo nisl. Cubilia curabitur curae sollicitudin convallis facilisi luctus faucibus pellentesque, non inceptos massa ultrices vulputate ad vitae litora semper, sodales purus ante euismod nisi venenatis molestie."
+  },
+  {
+    "name": "project 2",
+    "slug": "project-2",
+    "image": "main.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit parturient, leo commodo nisi. Cursus rhoncus eleifend dis bibendum et mollis curae phasellus scelerisque non consequat velit, erat placerat platea cras neque montes dui sodales leo nisl. Cubilia curabitur curae sollicitudin convallis facilisi luctus faucibus pellentesque, non inceptos massa ultrices vulputate ad vitae litora semper, sodales purus ante euismod nisi venenatis molestie."
+  },
+  {
+    "name": "project 3",
+    "slug": "project-3",
+    "image": "main.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit parturient, leo commodo nisi. Cursus rhoncus eleifend dis bibendum et mollis curae phasellus scelerisque non consequat velit, erat placerat platea cras neque montes dui sodales leo nisl. Cubilia curabitur curae sollicitudin convallis facilisi luctus faucibus pellentesque, non inceptos massa ultrices vulputate ad vitae litora semper, sodales purus ante euismod nisi venenatis molestie."
+  },
+  {
+    "name": "project 4",
+    "slug": "project-4",
+    "image": "main.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit parturient, leo commodo nisi. Cursus rhoncus eleifend dis bibendum et mollis curae phasellus scelerisque non consequat velit, erat placerat platea cras neque montes dui sodales leo nisl. Cubilia curabitur curae sollicitudin convallis facilisi luctus faucibus pellentesque, non inceptos massa ultrices vulputate ad vitae litora semper, sodales purus ante euismod nisi venenatis molestie."
+  },
+  {
+    "name": "project 5",
+    "slug": "project-5",
+    "image": "main.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit parturient, leo commodo nisi. Cursus rhoncus eleifend dis bibendum et mollis curae phasellus scelerisque non consequat velit, erat placerat platea cras neque montes dui sodales leo nisl. Cubilia curabitur curae sollicitudin convallis facilisi luctus faucibus pellentesque, non inceptos massa ultrices vulputate ad vitae litora semper, sodales purus ante euismod nisi venenatis molestie."
+  },
+  {
+    "name": "project 6",
+    "slug": "project-6",
+    "image": "main.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit parturient, leo commodo nisi. Cursus rhoncus eleifend dis bibendum et mollis curae phasellus scelerisque non consequat velit, erat placerat platea cras neque montes dui sodales leo nisl. Cubilia curabitur curae sollicitudin convallis facilisi luctus faucibus pellentesque, non inceptos massa ultrices vulputate ad vitae litora semper, sodales purus ante euismod nisi venenatis molestie."
+  },
+  {
+    "name": "project 7",
+    "slug": "project-7",
+    "image": "main.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit parturient, leo commodo nisi. Cursus rhoncus eleifend dis bibendum et mollis curae phasellus scelerisque non consequat velit, erat placerat platea cras neque montes dui sodales leo nisl. Cubilia curabitur curae sollicitudin convallis facilisi luctus faucibus pellentesque, non inceptos massa ultrices vulputate ad vitae litora semper, sodales purus ante euismod nisi venenatis molestie."
+  },
+  {
+    "name": "project 8",
+    "slug": "project-8",
+    "image": "main.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit parturient, leo commodo nisi. Cursus rhoncus eleifend dis bibendum et mollis curae phasellus scelerisque non consequat velit, erat placerat platea cras neque montes dui sodales leo nisl. Cubilia curabitur curae sollicitudin convallis facilisi luctus faucibus pellentesque, non inceptos massa ultrices vulputate ad vitae litora semper, sodales purus ante euismod nisi venenatis molestie."
+  }
+]
