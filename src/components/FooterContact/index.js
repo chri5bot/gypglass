@@ -1,7 +1,7 @@
 import React from "react"
 import * as Grid from "../Grid"
 import styled from "styled-components"
-import { IoLogoFacebook, IoLogoTwitter, IoLogoInstagram } from "react-icons/io"
+import { IoLogoFacebook, IoLogoInstagram } from "react-icons/io"
 
 const Copyright = styled.h6`
   padding: 0;
@@ -34,8 +34,7 @@ function Footer() {
         </Grid.Column>
         <Grid.Column xs={6}>
           <SocialNetwork>
-            <IoLogoFacebook></IoLogoFacebook>
-            <IoLogoTwitter style={{ margin: "0 0.25rem" }}></IoLogoTwitter>
+            <IoLogoFacebook style={{ margin: "0 0.25rem" }}></IoLogoFacebook>
             <IoLogoInstagram></IoLogoInstagram>
           </SocialNetwork>
         </Grid.Column>

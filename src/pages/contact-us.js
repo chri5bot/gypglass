@@ -123,9 +123,8 @@ function ContactUsPage() {
               <MdPhone style={{ width: "50px", height: "50px" }}></MdPhone>
               <h3>Teléfonos</h3>
               <ul>
-                <li>025134019</li>
-                <li>0995654537</li>
-                <li>0995271399</li>
+                <li>Ventas: 0995654537 - 025134019</li>
+                <li>Obras y Diseño: 0995271399</li>
               </ul>
             </InfoContainer>
           </Grid.Column>
