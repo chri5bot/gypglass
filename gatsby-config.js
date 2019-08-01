@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,

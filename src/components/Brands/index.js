@@ -55,7 +55,6 @@ function Brands() {
             <Image src={romeral} alt="romeral" width={130}></Image>
           </ImageContainer>
         </Grid.Column>
-
         <Grid.Column md={2} xs={4}>
           <ImageContainer>
             <Image src={sylvania} alt="sylvania" width={130}></Image>

@@ -5,7 +5,6 @@ import { Container } from "./styles"
 import { Title, Description } from "../styles"
 
 function ItemResponsive({ name, slug, image, description }) {
-  console.log("slug", slug)
   return (
     <Container>
       <img
