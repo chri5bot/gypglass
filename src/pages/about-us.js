@@ -5,11 +5,11 @@ import SEO from "../components/Seo"
 import * as Grid from "../components/Grid"
 import sizes from "../styles/media"
 import {
-  MdAccessibility,
-  MdDone,
-  MdAirplanemodeActive,
-  MdComputer,
-} from "react-icons/md"
+  FaDollyFlatbed,
+  FaCubes,
+  FaRegObjectGroup,
+  FaIndustry,
+} from "react-icons/fa"
 
 const Title = styled.h4`
   display: flex;
@@ -43,30 +43,40 @@ const AboutUsPage = () => (
       <Grid.Row>
         <Grid.Column md={3}>
           <InfoContainer>
-            <MdAccessibility
+            <FaDollyFlatbed
               style={{ width: "50px", height: "50px" }}
-            ></MdAccessibility>
-            <h3>Nuestros Servicios 1</h3>
+            ></FaDollyFlatbed>
+            <h4 style={{ textAlign: "center" }}>
+              Distribución de material para la instalación de gypsum y cielos
+              rasos.
+            </h4>
           </InfoContainer>
         </Grid.Column>
         <Grid.Column md={3}>
           <InfoContainer>
-            <MdDone style={{ width: "50px", height: "50px" }}></MdDone>
-            <h3>Nuestros Servicios 2</h3>
+            <FaCubes style={{ width: "50px", height: "50px" }}></FaCubes>
+            <h4 style={{ textAlign: "center" }}>
+              Diseño interior, remodelaciones, asesorías de construcción.
+            </h4>
           </InfoContainer>
         </Grid.Column>
         <Grid.Column md={3}>
           <InfoContainer>
-            <MdAirplanemodeActive
+            <FaRegObjectGroup
               style={{ width: "50px", height: "50px" }}
-            ></MdAirplanemodeActive>
-            <h3>Nuestros Servicios 3</h3>
+            ></FaRegObjectGroup>
+            <h4 style={{ textAlign: "center" }}>
+              Instalación y mantenimiento de gypsum con mano de obra
+              especializada.
+            </h4>
           </InfoContainer>
         </Grid.Column>
         <Grid.Column md={3}>
           <InfoContainer>
-            <MdComputer style={{ width: "50px", height: "50px" }}></MdComputer>
-            <h3>Nuestros Servicios 4</h3>
+            <FaIndustry style={{ width: "50px", height: "50px" }}></FaIndustry>
+            <h4 style={{ textAlign: "center" }}>
+              Perfilería con dimensiones personalizadas bajo pedidos.
+            </h4>
           </InfoContainer>
         </Grid.Column>
       </Grid.Row>
@@ -76,13 +86,9 @@ const AboutUsPage = () => (
         </Grid.Column>
         <Grid.Column md={9}>
           <Paragraph>
-            Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In
-            malesuada enim in dolor euismod, id commodo mi consectetur.
-            Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris
-            turpis nisl, molestie ut ipsum et, suscipit vehicula odio.
-            Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet
-            quam et libero dictum, vitae dignissim leo eleifend. In in turpis
-            turpis. Quisque justo turpis, ves.
+            Ahora somos la empresa GYPGLASS; anteriormente FIBERGLASS CIA.LTDA.
+            con 40 años de servicio y experiencia en la fabricación distribución
+            e instalación de cielos rasos, gypsum y sus componentes.
           </Paragraph>
         </Grid.Column>
       </Grid.Row>
@@ -92,13 +98,14 @@ const AboutUsPage = () => (
         </Grid.Column>
         <Grid.Column md={9}>
           <Paragraph>
-            Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In
-            malesuada enim in dolor euismod, id commodo mi consectetur.
-            Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris
-            turpis nisl, molestie ut ipsum et, suscipit vehicula odio.
-            Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet
-            quam et libero dictum, vitae dignissim leo eleifend. In in turpis
-            turpis. Quisque justo turpis, ves.
+            Contamos con un equipo de instalación altamente capacitado, que de
+            la mano de profesionales, se dedican a la realización de las
+            diferentes obras. Nuestro afán es tener la oportunidad de atenderles
+            de la mejor manera con personal técnico eficiente y material que
+            cumpla con las normas de calidad y expectativas del cliente. Además,
+            contamos con profesionales en diseño interior que podrán resolver
+            cualquiera de sus necesidades, en cuanto asesoría, remodelaciones
+            entre otros servicios que esta rama brinda.
           </Paragraph>
         </Grid.Column>
       </Grid.Row>
@@ -108,13 +115,10 @@ const AboutUsPage = () => (
         </Grid.Column>
         <Grid.Column md={9}>
           <Paragraph>
-            Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In
-            malesuada enim in dolor euismod, id commodo mi consectetur.
-            Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris
-            turpis nisl, molestie ut ipsum et, suscipit vehicula odio.
-            Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet
-            quam et libero dictum, vitae dignissim leo eleifend. In in turpis
-            turpis. Quisque justo turpis, ves.
+            Suministrar e instalar materiales para cielos falsos y servicios
+            complementarios relacionados con los más altos estándares de
+            calidad, con la finalidad de satisfacer las necesidades y
+            expectativas de nuestros clientes.
           </Paragraph>
         </Grid.Column>
       </Grid.Row>
@@ -124,13 +128,9 @@ const AboutUsPage = () => (
         </Grid.Column>
         <Grid.Column md={9}>
           <Paragraph>
-            Nam porttitor blandit accumsan. Ut vel dictum sem, a pretium dui. In
-            malesuada enim in dolor euismod, id commodo mi consectetur.
-            Curabitur at vestibulum nisi. Nullam vehicula nisi velit. Mauris
-            turpis nisl, molestie ut ipsum et, suscipit vehicula odio.
-            Vestibulum interdum vestibulum felis ac molestie. Praesent aliquet
-            quam et libero dictum, vitae dignissim leo eleifend. In in turpis
-            turpis. Quisque justo turpis, ves.
+            Ser reconocidos como líderes en la fabricación y distribución de
+            nuestros productos y servicios, por nuestra excelencia y alta
+            tecnología en la producción de los mismos.
           </Paragraph>
         </Grid.Column>
       </Grid.Row>

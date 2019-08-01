@@ -15,5 +15,5 @@ export const Container = styled.div`
 `
 export const ImageResponsive = styled.img`
   max-width: 100%;
-  height: auto;
+  height: 135px;
 `

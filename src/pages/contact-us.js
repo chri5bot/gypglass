@@ -33,7 +33,7 @@ const SendInput = styled.input`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #29b6f6;
+  background-color: #d3a200;
   color: white;
   padding: 0.7rem 0;
   border-radius: 1rem;
@@ -145,7 +145,10 @@ function ContactUsPage() {
           </Grid.Column>
           <Grid.Column md={6}>
             <h3>Contáctanos</h3>
-            <form action="https://formspree.io/email@domain.tld" method="POST">
+            <form
+              action="https://formspree.io/info.ventas@gypglass.com"
+              method="POST"
+            >
               <Input
                 id="name"
                 label="Nombre o Empresa"
