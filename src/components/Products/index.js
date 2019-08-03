@@ -5,7 +5,12 @@ import * as Grid from "../Grid"
 import Item from "./Item"
 import ItemResponsive from "./ItemResponsive"
 
-import { ItemContainerResponsive, ItemContainer } from "./styles"
+import {
+  ItemContainerResponsive,
+  ItemContainer,
+  StyledSelect,
+  HeadContainer,
+} from "./styles"
 
 function Products() {
   const {
@@ -28,11 +33,27 @@ function Products() {
 
   return (
     <Grid.Container>
-      <Grid.Row>
-        <Grid.Column md={12}>
-          <h3 style={{ textAlign: "center" }}>Nuestros productos</h3>
-        </Grid.Column>
-      </Grid.Row>
+      <HeadContainer>
+        <Grid.Row>
+          <Grid.Column md={6}>
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <h3>Nuestros productos</h3>
+            </div>
+          </Grid.Column>
+          <Grid.Column md={6}>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "flex-end",
+                height: "100%",
+              }}
+            >
+              <StyledSelect placeholder="Categoría"></StyledSelect>
+            </div>
+          </Grid.Column>
+        </Grid.Row>
+      </HeadContainer>
 
       <ItemContainerResponsive>
         {products.map(product => (
