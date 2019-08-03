@@ -18,11 +18,13 @@ export const Title = styled.h4`
 
 export const ItemContainer = styled.div`
   display: none;
+  min-height: 60vh;
   ${media.sm`
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
     grid-auto-rows: minmax(min-content, max-content);  
+    min-height: 40vh;
   `};
 `
 
