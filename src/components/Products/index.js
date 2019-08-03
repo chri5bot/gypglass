@@ -45,6 +45,12 @@ function Products() {
 
   const [selectedCategory, setSelectedCategory] = useState(null)
 
+  const filteredProducts = products.filter(product =>
+    selectedCategory && selectedCategory.value
+      ? product.category === selectedCategory.value
+      : product.category
+  )
+
   return (
     <Grid.Container>
       <HeadContainer>
@@ -75,12 +81,12 @@ function Products() {
       </HeadContainer>
 
       <ItemContainerResponsive>
-        {products.map(product => (
+        {filteredProducts.map(product => (
           <ItemResponsive key={product.slug} {...product} />
         ))}
       </ItemContainerResponsive>
       <ItemContainer>
-        {products.map(product => (
+        {filteredProducts.map(product => (
           <Item key={product.slug} {...product}></Item>
         ))}
       </ItemContainer>
