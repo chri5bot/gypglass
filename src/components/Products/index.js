@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import * as Grid from "../Grid"
@@ -11,6 +11,18 @@ import {
   StyledSelect,
   HeadContainer,
 } from "./styles"
+
+const options = [
+  { value: null, label: "Todas" },
+  { value: "perfileria", label: "Perfilería" },
+  { value: "gypsum-y-fibrocemento", label: "Gypsum y Fibrocemento" },
+  { value: "moduladas-cielo-raso", label: "Láminas Moduladas Cielo Raso" },
+  { value: "lana-de-vidrio", label: "Lana de Vidrio" },
+  {
+    value: "compuestos-y-accesorios",
+    label: "Compuestos y Accesorios",
+  },
+]
 
 function Products() {
   const {
@@ -31,6 +43,8 @@ function Products() {
     `
   )
 
+  const [selectedCategory, setSelectedCategory] = useState(null)
+
   return (
     <Grid.Container>
       <HeadContainer>
@@ -49,7 +63,12 @@ function Products() {
                 height: "100%",
               }}
             >
-              <StyledSelect placeholder="Categoría"></StyledSelect>
+              <StyledSelect
+                placeholder="Categoría"
+                options={options}
+                value={selectedCategory}
+                onChange={value => setSelectedCategory(value)}
+              ></StyledSelect>
             </div>
           </Grid.Column>
         </Grid.Row>
