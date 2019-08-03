@@ -19,6 +19,7 @@ function Products() {
             slug
             image
             description
+            category
           }
         }
       }
