@@ -147,6 +147,7 @@ function ContactUsPage() {
             <form
               action="https://formspree.io/info.ventas@gypglass.com"
               method="POST"
+              data-netlify="true"
             >
               <Input
                 id="name"
