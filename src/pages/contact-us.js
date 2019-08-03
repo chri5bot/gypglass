@@ -145,7 +145,7 @@ function ContactUsPage() {
           <Grid.Column md={6}>
             <h3>Contáctanos</h3>
             <form
-              action="https://formspree.io/ctorres@skypostal.com"
+              action="https://formspree.io/nicoledanielams@gmail.com"
               method="POST"
               data-netlify="true"
               netlify
