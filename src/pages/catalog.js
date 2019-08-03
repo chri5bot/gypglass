@@ -6,7 +6,9 @@ import Products from "../components/Products"
 import Catalog from "../components/Catalog"
 import * as Grid from "../components/Grid"
 
-function CatalogPage() {
+function CatalogPage({ location }) {
+  const { state: stateFromHome } = location
+
   return (
     <Layout>
       <SEO title="Catálogo" />
@@ -18,7 +20,7 @@ function CatalogPage() {
         </Grid.Row>
       </Grid.Container>
 
-      <Products />
+      <Products stateFromHome={stateFromHome} />
     </Layout>
   )
 }

@@ -24,7 +24,7 @@ const options = [
   },
 ]
 
-function Products() {
+function Products({ stateFromHome }) {
   const {
     allProductsJson: { nodes: products },
   } = useStaticQuery(
@@ -43,7 +43,9 @@ function Products() {
     `
   )
 
-  const [selectedCategory, setSelectedCategory] = useState(null)
+  const [selectedCategory, setSelectedCategory] = useState(
+    stateFromHome && stateFromHome.category
+  )
 
   const filteredProducts = products.filter(product =>
     selectedCategory && selectedCategory.value
