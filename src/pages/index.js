@@ -6,11 +6,16 @@ import Carousel from "../components/Carousel"
 import * as Grid from "../components/Grid"
 import media from "../styles/media"
 import styled from "styled-components"
-import banner1 from "../assets/banner/banner-1.png"
-import banner2 from "../assets/banner/banner-2.png"
+// import banner1 from "../assets/banner/banner-1.png"
+// import banner2 from "../assets/banner/banner-2.png"
 import Brands from "../components/Brands"
 import { IoLogoWhatsapp } from "react-icons/io"
 import { Link } from "gatsby"
+import perfileria from "../assets/category/PERFILERIA.jpg"
+import compuestos from "../assets/category/COMPUESTOS.jpg"
+import gypsum from "../assets/category/GYPSUM.jpg"
+import lana from "../assets/category/LANA.jpg"
+import moduladas from "../assets/category/MODULADAS.jpg"
 
 export const ImgContainer = styled.div`
   background-image: url('${props => props.img}');
@@ -49,6 +54,7 @@ export const WhatsappContainer = styled.div`
   overflow: hidden;
   right: 0;
   margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
 `
 
 const IndexPage = () => {
@@ -62,7 +68,7 @@ const IndexPage = () => {
           rel="noopener noreferrer"
         >
           <IoLogoWhatsapp
-            style={{ color: "#D3A200", width: "50px", height: "50px" }}
+            style={{ color: "#D3A200", width: "60px", height: "60px" }}
           ></IoLogoWhatsapp>
         </a>
       </WhatsappContainer>
@@ -72,7 +78,7 @@ const IndexPage = () => {
             <Carousel></Carousel>
           </Grid.Column>
         </Grid.Row>
-        <Grid.Row>
+        {/* <Grid.Row>
           <Grid.Column md={6}>
             <ImgContainer img={banner1} alt="slider-1">
               <Wrapper>
@@ -87,16 +93,16 @@ const IndexPage = () => {
               </Wrapper>
             </ImgContainer>
           </Grid.Column>
-        </Grid.Row>
+        </Grid.Row> */}
         <Grid.Row>
           <Grid.Column md={12}>
             <Link
               to="/catalog"
               state={{ category: { value: "perfileria", label: "Perfilería" } }}
             >
-              <ImgContainer img={banner1} alt="slider-1">
+              <ImgContainer img={perfileria} alt="slider-1">
                 <Wrapper>
-                  <Text>Perfilería</Text>
+                  <h1>Perfilería</h1>
                 </Wrapper>
               </ImgContainer>
             </Link>
@@ -112,11 +118,10 @@ const IndexPage = () => {
                   label: "Gypsum y Fibrocemento",
                 },
               }}
-              style={{ color: "black" }}
             >
-              <ImgContainer img={banner1} alt="slider-1">
+              <ImgContainer img={gypsum} alt="slider-1">
                 <Wrapper>
-                  <Text>Gypsum y Fibrocemento</Text>
+                  <h1>Gypsum y Fibrocemento</h1>
                 </Wrapper>
               </ImgContainer>
             </Link>
@@ -130,11 +135,10 @@ const IndexPage = () => {
                   label: "Láminas Moduladas Cielo Raso",
                 },
               }}
-              style={{ color: "black" }}
             >
-              <ImgContainer img={banner1} alt="slider-1">
+              <ImgContainer img={moduladas} alt="slider-1">
                 <Wrapper>
-                  <Text>Láminas Moduladas Cielo Raso</Text>
+                  <h1>Láminas Moduladas Cielo Raso</h1>
                 </Wrapper>
               </ImgContainer>
             </Link>
@@ -147,11 +151,10 @@ const IndexPage = () => {
               state={{
                 category: { value: "lana-de-vidrio", label: "Lana de Vidrio" },
               }}
-              style={{ color: "black" }}
             >
-              <ImgContainer img={banner1} alt="slider-1">
+              <ImgContainer img={lana} alt="slider-1">
                 <Wrapper>
-                  <Text>Lana de Vidrio</Text>
+                  <h1>Lana de Vidrio</h1>
                 </Wrapper>
               </ImgContainer>
             </Link>
@@ -165,11 +168,10 @@ const IndexPage = () => {
                   label: "Compuestos y Accesorios",
                 },
               }}
-              style={{ color: "black" }}
             >
-              <ImgContainer img={banner1} alt="slider-1">
+              <ImgContainer img={compuestos} alt="slider-1">
                 <Wrapper>
-                  <Text>Compuestos y Accesorios</Text>
+                  <h1>Compuestos y Accesorios</h1>
                 </Wrapper>
               </ImgContainer>
             </Link>

@@ -32,32 +32,32 @@ function Brands() {
       <Grid.Row>
         <Grid.Column md={2} xs={4}>
           <ImageContainer>
-            <Image src={sika} alt="sika" width={130}></Image>
+            <Image src={sika} alt="sika" width={100}></Image>
           </ImageContainer>
         </Grid.Column>
         <Grid.Column md={2} xs={4}>
           <ImageContainer>
-            <Image src={fiberglass} alt="fiberglass" width={130}></Image>
+            <Image src={fiberglass} alt="fiberglass" width={100}></Image>
           </ImageContainer>
         </Grid.Column>
         <Grid.Column md={2} xs={4}>
           <ImageContainer>
-            <Image src={gyplac} alt="gyplac" width={130}></Image>
+            <Image src={gyplac} alt="gyplac" width={100}></Image>
           </ImageContainer>
         </Grid.Column>
         <Grid.Column md={2} xs={4}>
           <ImageContainer>
-            <Image src={panelrey} alt="panelrey" width={130}></Image>
+            <Image src={panelrey} alt="panelrey" width={100}></Image>
           </ImageContainer>
         </Grid.Column>
         <Grid.Column md={2} xs={4}>
           <ImageContainer>
-            <Image src={romeral} alt="romeral" width={130}></Image>
+            <Image src={romeral} alt="romeral" width={100}></Image>
           </ImageContainer>
         </Grid.Column>
         <Grid.Column md={2} xs={4}>
           <ImageContainer>
-            <Image src={sylvania} alt="sylvania" width={130}></Image>
+            <Image src={sylvania} alt="sylvania" width={100}></Image>
           </ImageContainer>
         </Grid.Column>
       </Grid.Row>

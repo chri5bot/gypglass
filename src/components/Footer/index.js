@@ -25,11 +25,7 @@ function Footer() {
         <Grid.Column md={4}>
           <GypglassTitle>Gypglass</GypglassTitle>
           <p style={{ textAlign: "justify", fontSize: "small" }}>
-            Gypglass es una empresa que provee soluciones arquitectónicas y
-            constructivas en Ecuador desde el xxxx. Asiste a constructores,
-            arquitectos y profesionales en sus proyectos con la venta,
-            instalación y asesoría. Queremos mejorar la construcción y ejecución
-            de obras en las ciudades para el beneficio de los ecuatorianos.
+            Gypglass es una empresa de instalación de gypsum y cielos rasos con los mejores costos, de la mano de profesionales que garantizan su trabajo.
           </p>
         </Grid.Column>
         <Grid.Column md={4}>
