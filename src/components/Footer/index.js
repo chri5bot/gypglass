@@ -25,7 +25,7 @@ function Footer() {
         <Grid.Column md={4}>
           <GypglassTitle>Gypglass</GypglassTitle>
           <p style={{ textAlign: "justify", fontSize: "small" }}>
-            Gypglass es una empresa de instalación de gypsum y cielos rasos con los mejores costos, de la mano de profesionales que garantizan su trabajo.
+          GYPGLASS es una empresa que brinda soluciones integrales de diseño y construcción en gypsum y cielos falsos, además de distribuir todos los materiales para su instalación; fabricantes de su propia perfilería que se adapta a los mejores estándares de calidad, con más de 40 años de experiencia, denominada anteriormente FIBERGLASS INDUSTRIAL Y COMERCIAL C.L. .
           </p>
         </Grid.Column>
         <Grid.Column md={4}>
