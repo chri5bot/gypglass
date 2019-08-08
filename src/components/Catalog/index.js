@@ -1,5 +1,5 @@
 import React from "react"
-import banner from "../../images/banner.png"
+import banner from "../../images/banner.jpg"
 import { StyledContainer } from "./styles"
 import pdf from "../../images/GYPGLASS CATALOGO-1.pdf"
 

@@ -16,6 +16,7 @@ import compuestos from "../assets/category/COMPUESTOS.jpg"
 import gypsum from "../assets/category/GYPSUM.jpg"
 import lana from "../assets/category/LANA.jpg"
 import moduladas from "../assets/category/MODULADAS.jpg"
+import servicios from "../assets/servicios.jpg"
 
 export const ImgContainer = styled.div`
   background-image: url('${props => props.img}');
@@ -29,11 +30,15 @@ export const ImgContainer = styled.div`
   `};
 `
 export const Wrapper = styled.div`
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
   ${media.sm`
     display: flex;
-    height: 100%;
     align-items: center;
+    height: 100%;
     width: 50%;
     padding-left: 100px;
   `};
@@ -57,6 +62,13 @@ export const WhatsappContainer = styled.div`
   margin-bottom: 0.5rem;
 `
 
+export const Title = styled.h1`
+  font-size: 1em;
+  ${media.sm`
+    font-size: 2em;  
+  `};
+`
+
 const IndexPage = () => {
   return (
     <Layout>
@@ -78,22 +90,20 @@ const IndexPage = () => {
             <Carousel></Carousel>
           </Grid.Column>
         </Grid.Row>
-        {/* <Grid.Row>
-          <Grid.Column md={6}>
-            <ImgContainer img={banner1} alt="slider-1">
-              <Wrapper>
-                <Text>Banner Here</Text>
-              </Wrapper>
-            </ImgContainer>
+        <Grid.Row>
+          <Grid.Column md={12}>
+            <img
+              src={servicios}
+              alt="slider-1"
+              style={{ width: "100%", margin: "1rem 0" }}
+            ></img>
           </Grid.Column>
-          <Grid.Column md={6}>
-            <ImgContainer img={banner2} alt="slider-2">
-              <Wrapper>
-                <Text>Banner Here</Text>
-              </Wrapper>
-            </ImgContainer>
+        </Grid.Row>
+        <Grid.Row>
+          <Grid.Column md={12}>
+            <h3 style={{ textAlign: "center" }}>Nuestros Productos</h3>
           </Grid.Column>
-        </Grid.Row> */}
+        </Grid.Row>
         <Grid.Row>
           <Grid.Column md={12}>
             <Link
@@ -102,7 +112,7 @@ const IndexPage = () => {
             >
               <ImgContainer img={perfileria} alt="slider-1">
                 <Wrapper>
-                  <h1>Perfilería</h1>
+                  <Title>Perfilería</Title>
                 </Wrapper>
               </ImgContainer>
             </Link>
@@ -121,7 +131,7 @@ const IndexPage = () => {
             >
               <ImgContainer img={gypsum} alt="slider-1">
                 <Wrapper>
-                  <h1>Gypsum y Fibrocemento</h1>
+                  <Title>Gypsum y Fibrocemento</Title>
                 </Wrapper>
               </ImgContainer>
             </Link>
@@ -138,7 +148,7 @@ const IndexPage = () => {
             >
               <ImgContainer img={moduladas} alt="slider-1">
                 <Wrapper>
-                  <h1>Láminas Moduladas Cielo Raso</h1>
+                  <Title>Láminas Moduladas Cielo Raso</Title>
                 </Wrapper>
               </ImgContainer>
             </Link>
@@ -154,7 +164,7 @@ const IndexPage = () => {
             >
               <ImgContainer img={lana} alt="slider-1">
                 <Wrapper>
-                  <h1>Lana de Vidrio</h1>
+                  <Title>Lana de Vidrio</Title>
                 </Wrapper>
               </ImgContainer>
             </Link>
@@ -171,7 +181,7 @@ const IndexPage = () => {
             >
               <ImgContainer img={compuestos} alt="slider-1">
                 <Wrapper>
-                  <h1>Compuestos y Accesorios</h1>
+                  <Title>Compuestos y Accesorios</Title>
                 </Wrapper>
               </ImgContainer>
             </Link>

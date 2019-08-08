@@ -6,9 +6,9 @@ export const ImgContainer = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 190px;
+  height: 100px;
   ${media.sm`
-    height: 380px;
+    height: 280px;
   `};
 `
 export const Wrapper = styled.div`

@@ -3,7 +3,7 @@ import Slider from "react-slick"
 
 import {
   Container,
-  ImgContainer,
+
   // Wrapper, Text
 } from "./styles"
 
@@ -18,19 +18,19 @@ function Carousel() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 8000,
     arrows: false,
   }
   return (
     <Container>
       <Slider {...settings}>
-        <ImgContainer img={slider1} alt="slider-1"></ImgContainer>
-        <ImgContainer img={slider2} alt="slider-2"></ImgContainer>
-        <ImgContainer img={slider3} alt="slider-3"></ImgContainer>
+        <img src={slider1} alt="slider-1"></img>
+        <img src={slider2} alt="slider-2"></img>
+        <img src={slider3} alt="slider-3"></img>
       </Slider>
     </Container>
   )

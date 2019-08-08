@@ -39,9 +39,9 @@ const Header = ({ siteTitle }) => {
                 <StyledLink to="/catalog" activeStyle={activeStyle}>
                   Catálogo
                 </StyledLink>
-                <StyledLink to="/projects" activeStyle={activeStyle}>
+                {/* <StyledLink to="/projects" activeStyle={activeStyle}>
                   Proyectos
-                </StyledLink>
+                </StyledLink> */}
                 <StyledLink to="/contact-us" activeStyle={activeStyle}>
                   Contáctanos
                 </StyledLink>
