@@ -162,6 +162,26 @@
     }
   },
   {
+    "name": "Tablero de yeso ULTRALIGHT",
+    "slug": "tablero-yeso-ultralight",
+    "brand": "Sheetrock",
+    "summary": "",
+    "category": "gypsum-y-fibrocemento",
+    "image": "main.jpeg",
+    "images": [],
+    "pdf": "",
+    "description": "El tablero de 12.7 cm. (1/2”) de espesor más ligero en el mercado, fácil de levantar, cargar e instalar, cortes y fijación con menos polvo.",
+    "technicalInformation": {
+      "dimensions": [],
+      "densities": [],
+      "lengths": [],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": [],
+      "items": []
+    }
+  },
+  {
     "name": "Guard Rey",
     "slug": "guard-rey",
     "brand": "porttitor",
@@ -295,6 +315,26 @@
     "images": [],
     "pdf": "",
     "description": "Es una base de pintura para lograr un acabado estetico en inetiores. Cubre las uniones y pequeñas fisuras que puedan existir en el gypsum mantiene un color estable alarga la vida util de la pintura. Contiene: 20 kg. Rinde: Aprox.  20 m2.",
+    "technicalInformation": {
+      "dimensions": [],
+      "densities": [],
+      "lengths": [],
+      "borders": [],
+      "thermalResistances": [],
+      "colors": [],
+      "items": []
+    }
+  },
+  {
+    "name": "Maxiempaste",
+    "slug": "maxiempaste",
+    "brand": "Intaco",
+    "summary": "",
+    "category": "compuestos-y-accesorios",
+    "image": "main.jpeg",
+    "images": [],
+    "pdf": "",
+    "description": "Pasta cementicia de gran trabajabilidad y durabilidad, modificada con polímeros y aditivos de alta calidad, especialmente formulada para dar un acabado extra liso en una capa delgada desde 0 mm hasta 2 mm de espesor sobre paredes en interiores.",
     "technicalInformation": {
       "dimensions": [],
       "densities": [],
