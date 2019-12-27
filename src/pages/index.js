@@ -13,7 +13,7 @@ import { IoLogoWhatsapp } from "react-icons/io"
 import { Link } from "gatsby"
 import perfileria from "../assets/category/PERFILERIA.jpg"
 import compuestos from "../assets/category/COMPUESTOS.jpg"
-import gypsum from "../assets/category/GYPSUM.jpg"
+import gypsum from "../assets/category/GYPSUM.jpeg"
 import lana from "../assets/category/LANA.jpg"
 import moduladas from "../assets/category/MODULADAS.jpg"
 import servicios from "../assets/servicios.jpg"
@@ -129,7 +129,11 @@ const IndexPage = () => {
                 },
               }}
             >
-              <ImgContainer img={gypsum} alt="slider-1">
+              <ImgContainer
+                img={gypsum}
+                alt="slider-1"
+                style={{ backgroundPosition: "right" }}
+              >
                 <Wrapper>
                   <Title>Gypsum y Fibrocemento</Title>
                 </Wrapper>
