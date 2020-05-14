@@ -30,5 +30,14 @@ module.exports = {
         icon: `src/assets/logo.png`,
       },
     },
+    {
+      resolve: "gatsby-plugin-netlify-cache",
+      options: {
+        cachePublic: true,
+        extraDirsToCache: [
+          "static"
+        ]
+      }
+    }
   ],
 }
