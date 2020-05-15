@@ -1,6 +1,5 @@
 import React from "react"
 import Slider from "react-slick"
-import { withPrefix } from "gatsby"
 
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -30,7 +29,7 @@ function SliderProduct({ slug, image }) {
     <SliderContainer>
       <Slider {...settings}>
         <ImgContainer>
-          <Img src={withPrefix(`/products/${slug}/${image}`)} alt={slug} />
+          <Img src={image} alt={slug} />
         </ImgContainer>
       </Slider>
     </SliderContainer>

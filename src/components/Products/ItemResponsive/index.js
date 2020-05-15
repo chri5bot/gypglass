@@ -1,5 +1,4 @@
 import React from "react"
-import { withPrefix } from "gatsby-link"
 import { Link } from "gatsby"
 
 import { Container } from "./styles"
@@ -10,7 +9,7 @@ function ItemResponsive({ name, slug, image, description }) {
     <Link to={`/${slug}`}>
       <Container>
         <img
-          src={withPrefix(`/products/${slug}/${image}`)}
+           src={image}
           alt={slug}
           width={"100%"}
           height={"auto"}
