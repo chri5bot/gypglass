@@ -11,12 +11,6 @@ import styled from "styled-components"
 import Brands from "../components/Brands"
 import { IoLogoWhatsapp } from "react-icons/io"
 import { Link } from "gatsby"
-import perfileria from "../assets/category/PERFILERIA.jpg"
-import compuestos from "../assets/category/COMPUESTOS.jpg"
-import gypsum from "../assets/category/GYPSUM.jpeg"
-import lana from "../assets/category/LANA.jpg"
-import moduladas from "../assets/category/MODULADAS.jpg"
-import servicios from "../assets/servicios.jpg"
 
 export const ImgContainer = styled.div`
   background-image: url('${props => props.img}');
@@ -93,7 +87,7 @@ const IndexPage = () => {
         <Grid.Row>
           <Grid.Column md={12}>
             <img
-              src={servicios}
+              src='https://i.imgur.com/99Ak47P.jpg'
               alt="slider-1"
               style={{ width: "100%", margin: "1rem 0" }}
             ></img>
@@ -110,7 +104,7 @@ const IndexPage = () => {
               to="/catalog"
               state={{ category: { value: "perfileria", label: "Perfilería" } }}
             >
-              <ImgContainer img={perfileria} alt="slider-1">
+              <ImgContainer img="https://i.imgur.com/rZ1EBny.jpg" alt="slider-1">
                 <Wrapper>
                   <Title>Perfilería</Title>
                 </Wrapper>
@@ -130,7 +124,7 @@ const IndexPage = () => {
               }}
             >
               <ImgContainer
-                img={gypsum}
+                img="https://i.imgur.com/Kg4t9vU.jpg"
                 alt="slider-1"
                 style={{ backgroundPosition: "right" }}
               >
@@ -150,7 +144,7 @@ const IndexPage = () => {
                 },
               }}
             >
-              <ImgContainer img={moduladas} alt="slider-1">
+              <ImgContainer img="https://i.imgur.com/a3wPDO1.jpg" alt="slider-1">
                 <Wrapper>
                   <Title>Láminas Moduladas Cielo Raso</Title>
                 </Wrapper>
@@ -166,7 +160,7 @@ const IndexPage = () => {
                 category: { value: "lana-de-vidrio", label: "Lana de Vidrio" },
               }}
             >
-              <ImgContainer img={lana} alt="slider-1">
+              <ImgContainer img="https://i.imgur.com/I4EoO4x.jpg" alt="slider-1">
                 <Wrapper>
                   <Title>Lana de Vidrio</Title>
                 </Wrapper>
@@ -183,7 +177,7 @@ const IndexPage = () => {
                 },
               }}
             >
-              <ImgContainer img={compuestos} alt="slider-1">
+              <ImgContainer img="https://i.imgur.com/aa0xMvM.jpg" alt="slider-1">
                 <Wrapper>
                   <Title>Compuestos y Accesorios</Title>
                 </Wrapper>
@@ -192,7 +186,6 @@ const IndexPage = () => {
           </Grid.Column>
         </Grid.Row>
       </Grid.Container>
-
       <Brands />
     </Layout>
   )
