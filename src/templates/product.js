@@ -44,7 +44,7 @@ function ProductTemplate({
   return (
     <Layout>
       <SEO title={name} />
-      <Grid.Container>
+      <Grid.Container style={{height: "80vh"}}>
         <Grid.Row>
           <Grid.Column md={12}>
             <Breadcrum>
