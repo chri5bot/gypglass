@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Gypglass`,
-    description: `Insert Text Here.`,
+    description: `Ahora somos la empresa GYPGLASS; anteriormente FIBERGLASS CIA.LTDA. con 40 años de servicio y experiencia en la fabricación distribución e instalación de cielos rasos, gypsum y sus componentes.`,
     author: `@ChristianTorres`,
   },
   plugins: [
