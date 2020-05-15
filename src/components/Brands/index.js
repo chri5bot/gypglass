@@ -1,13 +1,5 @@
 import React from "react"
 import * as Grid from "../Grid"
-import fiberglass from "../../assets/brands/fiberglass.png"
-import gyplac from "../../assets/brands/gyplac.png"
-import panelrey from "../../assets/brands/panelrey.jpg"
-import romeral from "../../assets/brands/romeral.jpg"
-import sika from "../../assets/brands/sika.png"
-import sylvania from "../../assets/brands/sylvania.jpg"
-import intaco from "../../assets/brands/intaco.jpg"
-import usg from "../../assets/brands/usg.png"
 import styled from "styled-components"
 import media from "../../styles/media"
 
@@ -23,7 +15,46 @@ const Image = styled.img`
   `};
 `
 
+const firstGroup = [
+  {
+    alt: "sika",
+    src:"https://i.imgur.com/wXdZCyx.png"
+  },
+  {
+    alt:"fiberglass",
+    src:"https://i.imgur.com/HGIcVsh.png"
+  },
+  {
+    alt:"gyplac",
+    src:"https://i.imgur.com/p6fMMHj.png"
+  },
+  {
+    alt:"panelrey",
+    src:"https://i.imgur.com/fDiA9ba.jpg"
+  }
+]
+
+const secondGroup = [
+  {
+    alt: "romeral",
+    src:"https://i.imgur.com/KJiSq7H.jpg"
+  },
+  {
+    alt:"sylvania",
+    src:"https://i.imgur.com/Kx4laVb.jpg"
+  },
+  {
+    alt:"intaco",
+    src:"https://i.imgur.com/JkCfrYH.jpg"
+  },
+  {
+    alt:"usg",
+    src:"https://i.imgur.com/0a4IsEe.png"
+  }
+]
+
 function Brands() {
+  
   return (
     <Grid.Container>
       <Grid.Row>
@@ -32,48 +63,32 @@ function Brands() {
         </Grid.Column>
       </Grid.Row>
       <Grid.Row>
-        <Grid.Column md={3} xs={6}>
-          <ImageContainer>
-            <Image src={sika} alt="sika" width={100}></Image>
-          </ImageContainer>
-        </Grid.Column>
-        <Grid.Column md={3} xs={6}>
-          <ImageContainer>
-            <Image src={fiberglass} alt="fiberglass" width={100}></Image>
-          </ImageContainer>
-        </Grid.Column>
-        <Grid.Column md={3} xs={6}>
-          <ImageContainer>
-            <Image src={gyplac} alt="gyplac" width={100}></Image>
-          </ImageContainer>
-        </Grid.Column>
-        <Grid.Column md={3} xs={6}>
-          <ImageContainer>
-            <Image src={panelrey} alt="panelrey" width={100}></Image>
-          </ImageContainer>
-        </Grid.Column>
+        {
+          firstGroup && firstGroup.map(({alt, src}) => {
+            return(
+              <Grid.Column md={3} xs={6}>
+                <ImageContainer>
+                  <Image src={src} alt={alt} width={100}></Image>
+                </ImageContainer>
+              </Grid.Column>
+            )
+           
+          })
+        }
       </Grid.Row>
       <Grid.Row>
-        <Grid.Column md={3} xs={6}>
-          <ImageContainer>
-            <Image src={romeral} alt="romeral" width={100}></Image>
-          </ImageContainer>
-        </Grid.Column>
-        <Grid.Column md={3} xs={6}>
-          <ImageContainer>
-            <Image src={sylvania} alt="sylvania" width={100}></Image>
-          </ImageContainer>
-        </Grid.Column>
-        <Grid.Column md={3} xs={6}>
-          <ImageContainer>
-            <Image src={intaco} alt="intaco" width={100}></Image>
-          </ImageContainer>
-        </Grid.Column>
-        <Grid.Column md={3} xs={6}>
-          <ImageContainer>
-            <Image src={usg} alt="usg" width={100}></Image>
-          </ImageContainer>
-        </Grid.Column>
+      {
+          secondGroup && secondGroup.map(({alt, src}) => {
+            return(
+              <Grid.Column md={3} xs={6}>
+                <ImageContainer>
+                  <Image src={src} alt={alt} width={100}></Image>
+                </ImageContainer>
+              </Grid.Column>
+            )
+           
+          })
+        }
       </Grid.Row>
     </Grid.Container>
   )
