@@ -8,7 +8,6 @@ import sizes from "../styles/media"
 import { Input, TextArea } from "../components/FormElements"
 import { MdLocationOn, MdPhone, MdEmail } from "react-icons/md"
 import GoogleMapReact from "google-map-react"
-import logo from "../assets/logo.png"
 
 const ImgContactContainer = styled.div`
   display: none;
@@ -64,7 +63,7 @@ const StyledPara = styled.p`
 `
 
 const AnyReactComponent = () => (
-  <img src={logo} width={50} height={50} alt="icon"></img>
+  <img src="https://i.imgur.com/Lf5Q29n.png" width={50} height={50} alt="icon"></img>
 )
 
 function ContactUsPage() {
@@ -148,7 +147,6 @@ function ContactUsPage() {
               action="https://formspree.io/nicoledanielams@gmail.com"
               method="POST"
               data-netlify="true"
-              netlify
             >
               <Input
                 id="name"

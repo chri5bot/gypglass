@@ -66,7 +66,7 @@ function Brands() {
         {
           firstGroup && firstGroup.map(({alt, src}) => {
             return(
-              <Grid.Column md={3} xs={6}>
+              <Grid.Column md={3} xs={6} key={alt}>
                 <ImageContainer>
                   <Image src={src} alt={alt} width={100}></Image>
                 </ImageContainer>
@@ -80,7 +80,7 @@ function Brands() {
       {
           secondGroup && secondGroup.map(({alt, src}) => {
             return(
-              <Grid.Column md={3} xs={6}>
+              <Grid.Column md={3} xs={6} key={alt}>
                 <ImageContainer>
                   <Image src={src} alt={alt} width={100}></Image>
                 </ImageContainer>
